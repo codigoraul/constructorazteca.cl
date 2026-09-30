@@ -1,0 +1,92 @@
+---
+import { SITE } from '../lib/site';
+import Icon from './Icon.astro';
+const path = Astro.url.pathname.replace(/\/$/, '') || '/';
+const nav = [
+  { href: '/', label: 'Inicio' },
+  { href: '/nosotros', label: 'Nosotros' },
+  { href: '/proyectos', label: 'Proyectos' },
+  { href: '/servicios', label: 'Servicios' },
+  { href: '/parcelas', label: 'Parcelas' },
+  { href: '/contacto', label: 'Contáctanos' },
+];
+const active = (h: string) => (h === '/' ? path === '/' : path === h || path.startsWith(h + '/'));
+const { solid = false } = Astro.props;
+---
+<header class:list={['site-header', { 'is-solid': solid }]} id="site-header">
+  <div class="topbar">
+    <div class="container topbar__in">
+      <a href={`tel:${SITE.phoneRaw}`}><Icon name="phone" size={15} /> {SITE.phone}</a>
+      <a href={`mailto:${SITE.email}`}><Icon name="mail" size={15} /> {SITE.email}</a>
+      <span class="topbar__loc"><Icon name="pin" size={15} /> {SITE.address}</span>
+      <span class="topbar__soc">
+        <a href={SITE.facebook} target="_blank" rel="noopener" aria-label="Facebook"><Icon name="facebook" size={17} /></a>
+        <a href={SITE.instagram} target="_blank" rel="noopener" aria-label="Instagram"><Icon name="instagram" size={17} /></a>
+      </span>
+    </div>
+  </div>
+  <div class="container bar">
+    <a href="/" class="brand" aria-label="Constructora Azteca – inicio">
+      <img class="brand__light" src="/logo-light.svg" alt="" width="190" height="52" />
+      <img class="brand__dark" src="/logo.svg" alt="Constructora Azteca" width="190" height="52" />
+    </a>
+    <nav class="nav" id="nav" aria-label="Principal">
+      {nav.map((n) => <a href={n.href} class:list={[{ on: active(n.href) }]} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>)}
+      <a class="btn nav__cta" href="/contacto">Cotizar</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<style>
+  .site-header{position:fixed;inset:0 0 auto 0;z-index:50;color:#fff;transition:background .35s var(--ease),box-shadow .35s,transform .35s var(--ease)}
+  .topbar{border-bottom:1px solid rgba(255,255,255,.18);font-size:.82rem;transition:margin .35s var(--ease),opacity .3s}
+  .topbar__in{display:flex;align-items:center;gap:28px;padding-block:14px}
+  .topbar a,.topbar__loc{display:inline-flex;align-items:center;gap:8px;opacity:.9}
+  .topbar a:hover{color:var(--orange);opacity:1}
+  .topbar__soc{margin-left:auto;display:flex;gap:14px}
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:32px;transition:padding .35s var(--ease)}
+  .brand img{height:52px;width:auto}
+  .brand__dark{display:none}
+  .nav{display:flex;align-items:center;gap:clamp(18px,2.4vw,38px)}
+  .nav a:not(.btn){font-family:var(--font-head);font-weight:500;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;position:relative;padding-block:8px}
+  .nav a:not(.btn)::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--orange);transition:right .35s var(--ease)}
+  .nav a:not(.btn):hover::after,.nav a.on::after{right:0}
+  .nav__cta{padding:11px 20px}
+  .burger{display:none;background:none;border:0;color:inherit;width:44px;height:44px;cursor:pointer;padding:10px}
+  .burger span{display:block;height:2px;background:currentColor;margin:6px 0;transition:transform .3s,opacity .3s}
+  .site-header::before{content:"";position:absolute;inset:0;z-index:-1;background:rgba(255,255,255,.97);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);opacity:0;transition:opacity .35s var(--ease)}
+  .is-scrolled,.is-solid{color:var(--charcoal);box-shadow:0 6px 30px -12px rgba(0,0,0,.25)}
+  .is-scrolled::before,.is-solid::before{opacity:1}
+  .is-scrolled .topbar,.is-solid .topbar{border-color:#eee}
+  .is-solid .topbar{background:var(--charcoal);color:#fff;border-color:rgba(255,255,255,.1)}
+  .is-scrolled .topbar{margin-top:-46px;opacity:0;pointer-events:none}
+  .is-scrolled .brand__light,.is-solid .brand__light{display:none}
+  .is-scrolled .brand__dark,.is-solid .brand__dark{display:block}
+  .is-scrolled .brand img,.is-solid .brand img{height:50px}
+  .is-scrolled .bar{padding-block:16px}
+  @media (max-width:1020px){
+    .topbar__loc,.topbar a:nth-child(2){display:none}
+    .burger{display:block}
+    .nav{position:fixed;inset:0;background:var(--charcoal);overflow-y:auto;color:#fff;flex-direction:column;justify-content:center;gap:26px;transform:translateX(100%);transition:transform .45s var(--ease);z-index:-1}
+    .nav a:not(.btn){font-size:1.1rem}
+    .menu-open .nav{transform:none}
+    .menu-open{color:#fff!important;box-shadow:none!important}
+    .menu-open::before{opacity:0!important}
+    .menu-open .brand__light{display:block!important}.menu-open .brand__dark{display:none!important}
+    .menu-open .burger span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+    .menu-open .burger span:nth-child(2){opacity:0}
+    .menu-open .burger span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  }
+</style>
+<script>
+  const h = document.getElementById('site-header')!;
+  const b = document.getElementById('burger')!;
+  const onScroll = () => h.classList.toggle('is-scrolled', window.scrollY > 40);
+  onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+  b.addEventListener('click', () => {
+    const open = h.classList.toggle('menu-open');
+    b.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  document.querySelectorAll('#nav a').forEach((a) => a.addEventListener('click', () => { h.classList.remove('menu-open'); document.body.style.overflow = ''; }));
+</script>

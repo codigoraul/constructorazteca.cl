@@ -1,0 +1,67 @@
+---
+import { SITE } from '../lib/site';
+// Opcional: URL de un servicio de formularios (Formspree, Getform, etc.). Sin ella, el formulario abre el correo del visitante.
+const endpoint = import.meta.env.PUBLIC_FORM_ENDPOINT ?? '';
+const { subject = '' } = Astro.props;
+---
+<form class="form" data-form data-endpoint={endpoint} data-mailto={SITE.email} novalidate>
+  <div class="row">
+    <label>Nombre<input name="name" required autocomplete="name" /></label>
+    <label>Fono<input name="phone" type="tel" autocomplete="tel" /></label>
+  </div>
+  <label>Email<input name="email" type="email" required autocomplete="email" /></label>
+  <label>Tipo de consulta
+    <select name="topic" required>
+      <option value="" disabled selected>Selecciona una opción</option>
+      <option>Construcción de viviendas</option>
+      <option>Diseño y arquitectura</option>
+      <option>Regularización de viviendas</option>
+      <option>Proyectos sanitarios y eléctricos</option>
+      <option>Topografía</option>
+      <option>Parcelas en venta</option>
+      <option>Subsidios DS-01 / DS-10 (Entidad Patrocinante)</option>
+      <option>Otra consulta</option>
+    </select>
+  </label>
+  <label>Mensaje <small>(opcional)</small><textarea name="message" rows="5">{subject}</textarea></label>
+  <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true" />
+  <button class="btn" type="submit">Enviar mensaje</button>
+  <p class="form__msg" role="status" aria-live="polite"></p>
+</form>
+<style>
+  .form{display:grid;gap:20px}.row{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  label{display:grid;gap:8px;font-family:var(--font-head);font-size:.68rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--charcoal)}
+  label small{font-weight:500;text-transform:none;letter-spacing:0;color:var(--gray-400)}
+  input,textarea,select{font:inherit;font-size:.93rem;letter-spacing:0;text-transform:none;font-weight:400;color:var(--charcoal);padding:13px 14px;border:1px solid #d9d9d9;background:#fff;border-radius:0;transition:border-color .3s,box-shadow .3s;width:100%}
+  select{appearance:none;-webkit-appearance:none;cursor:pointer;padding-right:40px;background:#fff url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1.5l5 5 5-5' fill='none' stroke='%232D2D2D' stroke-width='1.6'/></svg>") no-repeat right 16px center}
+  input:focus,textarea:focus,select:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(245,166,35,.25)}
+  input.bad,textarea.bad,select.bad{border-color:var(--error)}
+  .hp{position:absolute;left:-9999px}
+  .form button{justify-self:start}.form__msg{margin:0;font-size:.95rem}.form__msg.ok{color:var(--ok)}.form__msg.err{color:var(--error)}
+  @media (max-width:600px){.row{grid-template-columns:1fr}}
+</style>
+<script>
+  document.querySelectorAll<HTMLFormElement>('[data-form]').forEach((f) => {
+    const msg = f.querySelector('.form__msg')!;
+    f.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const d = Object.fromEntries(new FormData(f)) as Record<string, string>;
+      f.querySelectorAll('input,textarea,select').forEach((i) => i.classList.remove('bad'));
+      const bad = ['name', 'email', 'topic'].filter((k) => !d[k]?.trim() || (k === 'email' && !/^\S+@\S+\.\S+$/.test(d[k])));
+      if (bad.length) { bad.forEach((k) => f.querySelector(`[name=${k}]`)?.classList.add('bad')); msg.className = 'form__msg err'; msg.textContent = 'Revisa el nombre, el email y el tipo de consulta.'; return; }
+      if (d.website) return; // honeypot
+      const btn = f.querySelector('button')!; btn.disabled = true; msg.className = 'form__msg'; msg.textContent = 'Enviando…';
+      const ep = f.dataset.endpoint;
+      try {
+        if (!ep) throw new Error('no-endpoint');
+        const r = await fetch(ep, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(d) });
+        if (!r.ok) throw new Error('http');
+        f.reset(); msg.className = 'form__msg ok'; msg.textContent = '¡Gracias! Recibimos tu mensaje y te contactaremos pronto.';
+      } catch {
+        const body = encodeURIComponent(`Nombre: ${d.name}\nFono: ${d.phone || '-'}\nEmail: ${d.email}\nConsulta: ${d.topic}\n\n${d.message || ''}`);
+        location.href = `mailto:${f.dataset.mailto}?subject=${encodeURIComponent(`Consulta web: ${d.topic}`)}&body=${body}`;
+        msg.className = 'form__msg'; msg.textContent = 'Abrimos tu correo para que envíes el mensaje.';
+      } finally { btn.disabled = false; }
+    });
+  });
+</script>

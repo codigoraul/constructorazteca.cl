@@ -1,0 +1,36 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import ContactForm from '../components/ContactForm.astro';
+import Icon from '../components/Icon.astro';
+import { getContent } from '../lib/wp';
+import { SITE } from '../lib/site';
+const c = await getContent();
+---
+<Base title="Contáctanos" description="Escríbenos o llámanos: Constructora Azteca en Ancud, Chiloé. Cotiza tu vivienda, regularización, proyecto sanitario o parcela.">
+  <PageHero title="Contáctanos" lead="Cuéntanos sobre tu proyecto. Te responderemos a la brevedad." image={c.projects[2]?.hero} crumbs={[{ label: 'Contáctanos' }]} />
+  <section class="section">
+    <div class="container"><div class="section-head section-head--center"><span class="eyebrow">Contacto</span><h2>Hablemos de tu Proyecto</h2></div></div>
+    <div class="container ct">
+      <div class="reveal"><span class="eyebrow">Formulario de contacto</span><h2>Escríbenos</h2><ContactForm /></div>
+      <aside class="ct__info reveal">
+        <span class="eyebrow">Datos de contacto</span>
+        <ul>
+          <li><Icon name="phone" size={20} /><div><small>Teléfono</small><a href={`tel:${SITE.phoneRaw}`}>{SITE.phone}</a></div></li>
+          <li><Icon name="mail" size={20} /><div><small>Email</small><a href={`mailto:${SITE.email}`}>{SITE.email}</a></div></li>
+          <li><Icon name="pin" size={20} /><div><small>Dirección</small><span>{SITE.address}</span></div></li>
+        </ul>
+        <a class="btn btn--dark" href={`https://wa.me/${SITE.phoneRaw.replace('+','')}`} target="_blank" rel="noopener"><Icon name="whatsapp" size={18} /> Escribir por WhatsApp</a>
+      </aside>
+    </div>
+  </section>
+</Base>
+<style>
+  .ct{display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(32px,6vw,90px)}
+  .ct__info{background:var(--gray-100);padding:clamp(24px,3vw,36px);align-self:start;border-top:4px solid var(--orange)}
+  .ct__info ul{list-style:none;margin:0 0 28px;padding:0;display:grid;gap:20px}
+  .ct__info li{display:flex;gap:18px;align-items:flex-start}.ct__info li svg{color:var(--orange-dark);flex:none;margin-top:4px}
+  small{display:block;font-family:var(--font-head);font-size:.65rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gray-400);font-weight:700}
+  .ct__info a,.ct__info span{font-family:var(--font-head);font-weight:500;color:var(--charcoal);font-size:.92rem}.ct__info li a:hover{color:var(--orange-dark)}
+  @media (max-width:900px){.ct{grid-template-columns:1fr}}
+</style>

@@ -1,0 +1,95 @@
+---
+import type { Slide } from '../lib/types';
+import Icon from './Icon.astro';
+interface Props { slides: Slide[] }
+const { slides } = Astro.props;
+const pad = (n: number) => String(n).padStart(2, '0');
+---
+<section class="hero" aria-roledescription="carrusel" aria-label="Destacados" data-slider>
+  <div class="hero__slides">
+    {slides.map((s, i) => (
+      <article class:list={['slide', { active: i === 0 }]} aria-hidden={i === 0 ? 'false' : 'true'}>
+        <img class="slide__img" src={s.image.src} srcset={s.image.small ? `${s.image.small} 800w, ${s.image.src} 1600w` : undefined} sizes="100vw" style={s.image.position ? `object-position:${s.image.position}` : undefined} alt={s.image.alt ?? ''} width={s.image.width} height={s.image.height} loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : 'auto'} decoding="async" />
+        <div class="container slide__in">
+          <p class="eyebrow">{pad(i + 1)} — Constructora e Inmobiliaria</p>
+          <h1 class="slide__title">{s.title}</h1>
+          <p class="slide__sub">{s.subtitle}</p>
+          <div class="slide__cta">
+            {s.link && <a class="btn" href={s.link}>{s.cta ?? 'Ver más'} <Icon name="arrow" size={18} /></a>}
+            <a class="btn btn--ghost" href="/contacto">Cotizar proyecto</a>
+          </div>
+        </div>
+      </article>
+    ))}
+  </div>
+  {slides.length > 1 && (
+    <div class="hero__ctrl container">
+      <div class="hero__count"><b data-cur>01</b><i></i><span>{pad(slides.length)}</span></div>
+      <div class="hero__dots">{slides.map((_, i) => <button class:list={[{ on: i === 0 }]} aria-label={`Ir a la diapositiva ${i + 1}`} data-go={i}><span></span></button>)}</div>
+      <div class="hero__arrows">
+        <button aria-label="Anterior" data-prev><Icon name="left" size={22} /></button>
+        <button aria-label="Siguiente" data-next><Icon name="arrow" size={22} /></button>
+      </div>
+    </div>
+  )}
+  <a class="hero__scroll" href="#servicios" aria-label="Bajar"><span></span></a>
+</section>
+<style>
+  .hero{position:relative;height:82svh;min-height:560px;max-height:780px;background:var(--charcoal);color:#fff;overflow:hidden;isolation:isolate}
+  .slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity 1.2s var(--ease),visibility 1.2s;display:flex;align-items:center}
+  .slide.active{opacity:1;visibility:visible;z-index:1}
+  .slide__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transform:scale(1.02)}
+  .slide.active .slide__img{animation:kb 9s ease-out forwards}
+  @keyframes kb{to{transform:scale(1.10)}}
+  .slide::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(45,45,45,.88) 0%,rgba(45,45,45,.55) 48%,rgba(45,45,45,.15) 100%),linear-gradient(0deg,rgba(45,45,45,.6),transparent 40%),linear-gradient(180deg,rgba(45,45,45,.78),transparent 230px)}
+  .slide__in{padding-top:120px}
+  .slide .eyebrow{color:var(--orange-light)}
+  .slide__title{color:#fff;max-width:14ch;text-transform:uppercase;letter-spacing:0;font-weight:600;font-size:clamp(1.87rem,4.2vw,3.5rem)}
+  .slide__sub{max-width:540px;font-size:clamp(.98rem,1.3vw,1.12rem);color:#ececec;margin:0 0 34px}
+  .slide__cta{display:flex;gap:16px;flex-wrap:wrap}
+  .slide.active .eyebrow,.slide.active .slide__title,.slide.active .slide__sub,.slide.active .slide__cta{animation:up .9s var(--ease) both}
+  .slide.active .slide__title{animation-delay:.15s}.slide.active .slide__sub{animation-delay:.3s}.slide.active .slide__cta{animation-delay:.45s}
+  @keyframes up{from{opacity:0;transform:translateY(30px)}}
+  .hero__ctrl{position:absolute;left:0;right:0;bottom:44px;z-index:5;display:flex;align-items:center;gap:32px;left:50%;transform:translateX(-50%)}
+  .hero__count{font-family:var(--font-head);display:flex;align-items:center;gap:12px;font-size:.95rem;color:#cfcfcf}
+  .hero__count b{color:#fff;font-size:1.4rem}.hero__count i{width:44px;height:1px;background:var(--orange)}
+  .hero__dots{display:flex;gap:10px;flex:1}
+  .hero__dots button{background:none;border:0;padding:12px 0;cursor:pointer;width:clamp(40px,7vw,90px)}
+  .hero__dots span{display:block;height:3px;background:rgba(255,255,255,.35);position:relative;overflow:hidden}
+  .hero__dots span::after{content:"";position:absolute;inset:0;background:var(--orange);transform:scaleX(0);transform-origin:left}
+  .hero__dots .on span::after{animation:fill var(--dur,7s) linear forwards}
+  @keyframes fill{to{transform:scaleX(1)}}
+  .hero__arrows{display:flex;gap:10px}
+  .hero__arrows button{width:52px;height:52px;background:transparent;border:1px solid rgba(255,255,255,.5);color:#fff;cursor:pointer;display:grid;place-items:center;transition:background .3s,color .3s,border-color .3s}
+  .hero__arrows button:hover{background:var(--orange);border-color:var(--orange);color:var(--charcoal)}
+  .hero__scroll{position:absolute;right:var(--gutter);bottom:120px;z-index:5;width:26px;height:44px;border:2px solid rgba(255,255,255,.6);border-radius:14px;display:none}
+  .hero__scroll span{position:absolute;left:50%;top:8px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--orange);animation:sc 1.8s infinite}
+  @keyframes sc{50%{transform:translateY(12px);opacity:.2}}
+  @media (min-width:1100px){.hero__scroll{display:block}}
+  @media (max-width:700px){.hero__ctrl{bottom:24px;gap:16px}.hero__count{display:none}.hero__arrows{display:none}.slide__cta .btn{padding:14px 20px}}
+</style>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-slider]').forEach((root) => {
+    const slides = [...root.querySelectorAll<HTMLElement>('.slide')];
+    if (slides.length < 2) return;
+    const dots = [...root.querySelectorAll<HTMLElement>('[data-go]')];
+    const cur = root.querySelector('[data-cur]')!;
+    const DUR = 7000; let i = 0, t: number | undefined;
+    root.style.setProperty('--dur', DUR + 'ms');
+    const go = (n: number) => {
+      i = (n + slides.length) % slides.length;
+      slides.forEach((s, k) => { s.classList.toggle('active', k === i); s.setAttribute('aria-hidden', String(k !== i)); });
+      dots.forEach((d, k) => { d.classList.remove('on'); if (k === i) { void d.offsetWidth; d.classList.add('on'); } });
+      cur.textContent = String(i + 1).padStart(2, '0'); play();
+    };
+    const play = () => { clearTimeout(t); if (!matchMedia('(prefers-reduced-motion:reduce)').matches) t = window.setTimeout(() => go(i + 1), DUR); };
+    root.querySelector('[data-next]')?.addEventListener('click', () => go(i + 1));
+    root.querySelector('[data-prev]')?.addEventListener('click', () => go(i - 1));
+    dots.forEach((d) => d.addEventListener('click', () => go(Number(d.dataset.go))));
+    let x0 = 0;
+    root.addEventListener('touchstart', (e) => (x0 = e.touches[0].clientX), { passive: true });
+    root.addEventListener('touchend', (e) => { const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 50) go(i + (dx < 0 ? 1 : -1)); });
+    document.addEventListener('visibilitychange', () => (document.hidden ? clearTimeout(t) : play()));
+    play();
+  });
+</script>

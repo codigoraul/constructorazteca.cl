@@ -1,0 +1,72 @@
+[
+ {
+  "title": "Azteca Construcción",
+  "subtitle": "Empresa dedicada al desarrollo de proyectos de vivienda social y privada, en sector urbano y rural.",
+  "cta": "Ver servicios",
+  "link": "/servicios",
+  "image": {
+   "src": "/slider/slide-1.webp",
+   "small": "/slider/slide-1-800.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Vivienda construida por Constructora Azteca",
+   "position": "40% 50%"
+  }
+ },
+ {
+  "title": "Proyectos de vivienda social y privada",
+  "subtitle": "En sector urbano y rural; construyendo y respaldando el sueño de muchas familias.",
+  "cta": "Ver proyectos",
+  "link": "/proyectos",
+  "image": {
+   "src": "/slider/slide-2.webp",
+   "small": "/slider/slide-2-800.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Casa de dos pisos en construcción",
+   "position": "50% 55%"
+  }
+ },
+ {
+  "title": "Diseño y arquitectura",
+  "subtitle": "Un equipo de arquitectos con quienes trabajamos cada proyecto de manera personalizada, ajustado a la norma urbanística.",
+  "cta": "Ver detalles",
+  "link": "/servicios/diseno-y-arquitectura",
+  "image": {
+   "src": "/slider/slide-3.webp",
+   "small": "/slider/slide-3-800.webp",
+   "width": 1497,
+   "height": 1123,
+   "alt": "Interior de vivienda terminada",
+   "position": "50% 22%"
+  }
+ },
+ {
+  "title": "Construcción de viviendas",
+  "subtitle": "Más de 10 años de experiencia en viviendas sociales del subsidio DS-01 y proyectos privados llave en mano.",
+  "cta": "Ver detalles",
+  "link": "/servicios/construccion-de-viviendas",
+  "image": {
+   "src": "/slider/slide-4.webp",
+   "small": "/slider/slide-4-800.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Vivienda con revestimiento de madera",
+   "position": "50% 45%"
+  }
+ },
+ {
+  "title": "Inmobiliaria",
+  "subtitle": "Parcelas en el archipiélago de Chiloé, con bosques nativos, praderas y vertientes naturales.",
+  "cta": "Ver parcelas",
+  "link": "/parcelas",
+  "image": {
+   "src": "/slider/slide-5.webp",
+   "small": "/slider/slide-5-800.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Interior con ventanales al paisaje",
+   "position": "50% 55%"
+  }
+ }
+]

@@ -1,0 +1,15 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import ProjectCard from '../../components/ProjectCard.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import { getContent } from '../../lib/wp';
+const c = await getContent();
+---
+<Base title="Proyectos" description="Proyectos de viviendas construidos por Constructora Azteca en Ancud y Chiloé: casas de uno y dos pisos, sector urbano y rural.">
+  <PageHero title="Proyectos" crumbs={[{ label: 'Proyectos' }]} />
+  <section class="section section--roomy">
+    <div class="container container--wide"><div class="section-head section-head--center"><span class="eyebrow">Proyectos</span><h2>Nuestros Proyectos</h2></div><div class="masonry">{c.projects.map((p, i) => <ProjectCard p={p} eager={i < 3} />)}</div></div>
+  </section>
+  <CtaBand />
+</Base>

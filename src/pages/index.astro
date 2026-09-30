@@ -1,0 +1,89 @@
+---
+import Base from '../layouts/Base.astro';
+import Slider from '../components/Slider.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import ProjectCard from '../components/ProjectCard.astro';
+import CtaBand from '../components/CtaBand.astro';
+import Icon from '../components/Icon.astro';
+import { getContent } from '../lib/wp';
+import { SITE } from '../lib/site';
+const c = await getContent();
+const services = c.services.filter((s) => s.kind === 'servicio').slice(0, 3);
+const featured = c.projects.slice(0, 6);
+const about = c.about.hero ?? c.projects[2]?.hero;
+const stats = [
+  { n: '+10', l: 'años de experiencia' },
+  { n: 'DS-01', l: 'y DS-10 · Entidad Patrocinante' },
+];
+---
+<Base image={c.slides[0]?.image.src}>
+  <Slider slides={c.slides} />
+
+  <section class="section section--gray" id="servicios">
+    <div class="container">
+      <div class="section-head section-head--center"><span class="eyebrow">Servicios</span><h2>Nuestros Servicios</h2></div>
+      <div class="grid grid--3">{services.map((s) => <ServiceCard s={s} />)}</div>
+      <p class="more"><a class="link-arrow" href="/servicios">Ver todos los servicios <Icon name="arrow" size={16} /></a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container about">
+      <div class="about__media reveal">
+        {about && <img src={about.src} srcset={about.small ? `${about.small} 640w, ${about.src} 1920w` : undefined} sizes="(min-width:900px) 560px, 100vw" alt="Vivienda proyectada por Constructora Azteca" width={about.width} height={about.height} loading="lazy" />}
+        <div class="about__badge"><b>+10</b><span>años construyendo en Chiloé</span></div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Nosotros</span>
+        <h2>Quiénes somos</h2>
+        <p>Somos una empresa dedicada al desarrollo de proyectos de vivienda social y privada, en sector urbano y rural; construyendo y respaldando el sueño de muchas familias.</p>
+        <p>En Azteca entendemos que cada proyecto es único, por ello contamos con un equipo de trabajo que entiende las necesidades de cada cliente, con el fin de ser eficientes y eficaces en la ejecución de cada vivienda.</p>
+        <ul class="stats">{stats.map((s) => <li><b>{s.n}</b><span>{s.l}</span></li>)}</ul>
+        <a class="btn btn--dark" href="/nosotros">Conoce más <Icon name="arrow" size={18} /></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--dark ep">
+    <div class="container ep__in">
+      <div>
+        <span class="eyebrow" style="color:var(--orange-light)">{SITE.ep.subtitle}</span>
+        <h2>{SITE.ep.title}</h2>
+        <p>{SITE.ep.text}</p>
+      </div>
+      <div class="ep__contact">
+        <img class="ep__logo" src="/egr-chile.webp" alt="EGR Chile Ltda. Consultoría Habitacional" width="240" height="192" loading="lazy" />
+        <a href={`mailto:${SITE.ep.email}`}><Icon name="mail" size={22} /> {SITE.ep.email}</a>
+        <a href={`tel:${SITE.ep.phone.replace(/\s/g, '')}`}><Icon name="phone" size={22} /> {SITE.ep.phone}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container--wide">
+      <div class="section-head section-head--center">
+        <span class="eyebrow">Proyectos</span><h2>Algunos Proyectos</h2>
+      </div>
+      <div class="masonry">{featured.map((p) => <ProjectCard p={p} />)}</div>
+      <p class="more"><a class="link-arrow" href="/proyectos">Ver todos los proyectos <Icon name="arrow" size={16} /></a></p>
+    </div>
+  </section>
+
+  <CtaBand />
+</Base>
+<style>
+  .about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,90px);align-items:center}
+  .about__media{position:relative}
+  .about__media img{width:100%;aspect-ratio:5/4;object-fit:cover}
+  .about__media::before{content:"";position:absolute;left:-18px;top:-18px;width:60%;height:60%;border-left:4px solid var(--orange);border-top:4px solid var(--orange);z-index:-1}
+  .about__badge{position:absolute;right:-16px;bottom:-24px;background:var(--orange);color:var(--charcoal);padding:22px 28px;display:flex;flex-direction:column;box-shadow:var(--shadow)}
+  .about__badge b{font-family:var(--font-head);font-size:2rem;line-height:1;font-weight:600}.about__badge span{font-size:.85rem;max-width:14ch;line-height:1.3;margin-top:6px}
+  .more{text-align:center;margin:clamp(36px,5vw,64px) 0 0}
+  .stats{list-style:none;padding:0;margin:32px 0;display:grid;grid-template-columns:repeat(2,1fr);gap:20px;border-top:1px solid #e6e6e6;padding-top:28px}
+  .stats b{display:block;font-family:var(--font-head);font-weight:600;font-size:1.45rem;color:var(--charcoal);line-height:1.1}.stats span{font-size:.85rem;line-height:1.35;display:block;margin-top:4px}
+  .ep__in{display:flex;justify-content:space-between;align-items:center;gap:40px;flex-wrap:wrap}.ep p{max-width:62ch;margin:0}
+  .ep__logo{width:190px;height:auto;background:#fff;padding:10px;border-radius:2px;margin-bottom:6px}
+  .ep__contact{display:grid;gap:16px}.ep__contact a{display:flex;gap:14px;align-items:center;font-family:var(--font-head);font-weight:500;color:#fff;font-size:.95rem}.ep__contact svg{color:var(--orange)}
+  .ep__contact a:hover{color:var(--orange)}
+  @media (max-width:900px){.about{grid-template-columns:1fr}.about__badge{right:8px}.stats{grid-template-columns:1fr 1fr}}
+</style>

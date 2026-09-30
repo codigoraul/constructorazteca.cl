@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://constructorazteca.cl/sitemap-index.xml

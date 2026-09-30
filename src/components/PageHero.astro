@@ -1,0 +1,16 @@
+---
+import type { Img } from '../lib/types';
+interface Props { title: string; lead?: string; image?: Img | null; crumbs?: { label: string; href?: string }[] }
+const { title, lead, image, crumbs = [] } = Astro.props;
+---
+<section class="page-hero">
+  {image && <img class="page-hero__bg" src={image.src} alt="" width={image.width} height={image.height} fetchpriority="high" />}
+  <div class="container">
+    <nav class="crumbs" aria-label="Migas de pan">
+      <a href="/">Inicio</a>
+      {crumbs.map((c) => (<><span aria-hidden="true">/</span>{c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}</>))}
+    </nav>
+    <h1>{title}</h1>
+  </div>
+</section>
+

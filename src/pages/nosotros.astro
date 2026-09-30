@@ -1,0 +1,41 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHero from '../components/PageHero.astro';
+import CtaBand from '../components/CtaBand.astro';
+import { getContent } from '../lib/wp';
+import { SITE } from '../lib/site';
+const c = await getContent();
+const img = c.projects[3]?.hero ?? c.about.hero;
+---
+<Base title="Nosotros" description="Somos una empresa dedicada al desarrollo de proyectos de vivienda social y privada, en sector urbano y rural. Entidad Patrocinante DS-01 y DS-10.">
+  <PageHero title="Quiénes somos" lead="Construimos y respaldamos el sueño de muchas familias." image={c.projects[0]?.hero} crumbs={[{ label: 'Nosotros' }]} />
+  <section class="section">
+    <div class="container two">
+      <div class="reveal">
+        <span class="eyebrow">Nuestra empresa</span>
+        <h2>Vivienda social y privada, en sector urbano y rural</h2>
+        <p>Somos una empresa dedicada al desarrollo de proyectos de vivienda social y privada, en sector urbano y rural; construyendo y respaldando el sueño de muchas familias.</p>
+        <p>En Azteca entendemos que cada proyecto es único, por ello contamos con un equipo de trabajo que entiende las necesidades de cada cliente, con el fin de ser eficientes y eficaces en la ejecución de cada vivienda y así poder brindar un mejor servicio a cada familia.</p>
+        <a class="btn" href="/proyectos">Ver proyectos</a>
+      </div>
+      <div class="reveal"><img src="/casa-nosotros.webp" srcset="/casa-nosotros-800.webp 800w, /casa-nosotros.webp 1024w" sizes="(max-width:900px) 100vw, 50vw" alt="Vivienda construida por Constructora Azteca" width="1024" height="572" loading="lazy" /></div>
+    </div>
+  </section>
+  <section class="section section--gray">
+    <div class="container ep reveal">
+      <img class="ep__logo" src="/egr-chile.webp" alt="EGR Chile Ltda. Consultoría Habitacional" width="200" height="160" loading="lazy" />
+      <span class="eyebrow">{SITE.ep.subtitle}</span>
+      <h2>{SITE.ep.title}</h2>
+      <p>{SITE.ep.text}</p>
+      <p class="ep__c"><a href={`mailto:${SITE.ep.email}`}>{SITE.ep.email}</a> · <a href={`tel:${SITE.ep.phone.replace(/\s/g, '')}`}>{SITE.ep.phone}</a></p>
+    </div>
+  </section>
+  <CtaBand />
+</Base>
+<style>
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,90px);align-items:center}.two img{width:100%;aspect-ratio:5/4;object-fit:cover;object-position:52% 50%}
+  .ep{max-width:860px;border-left:4px solid var(--orange);padding-left:clamp(20px,4vw,48px);margin-left:auto;margin-right:auto}
+  .ep__logo{width:170px;height:auto;display:block;margin-bottom:22px}
+  .ep__c a{font-weight:600;color:var(--charcoal);border-bottom:2px solid var(--orange)}
+  @media (max-width:900px){.two{grid-template-columns:1fr}}
+</style>

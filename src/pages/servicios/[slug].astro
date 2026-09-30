@@ -1,0 +1,42 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Gallery from '../../components/Gallery.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import Icon from '../../components/Icon.astro';
+import { getContent, money } from '../../lib/wp';
+export async function getStaticPaths() {
+  const c = await getContent();
+  return c.services.map((s) => ({ params: { slug: s.slug }, props: { s, others: c.services.filter((o) => o.kind === s.kind && o.slug !== s.slug).slice(0, 3), bg: c.projects[1]?.hero } }));
+}
+const { s, others, bg } = Astro.props;
+const isParcela = s.kind === 'parcela';
+const paras = s.description.split('\n').filter(Boolean);
+const section = isParcela ? { label: 'Parcelas', href: '/parcelas' } : { label: 'Servicios', href: '/servicios' };
+---
+<Base title={s.title} description={s.excerpt} image={s.hero?.src}>
+  <PageHero title={s.title} image={bg ?? s.hero} crumbs={[section, { label: s.title }]} />
+  <section class="section">
+    <div class="container det">
+      <div class="reveal">
+        <span class="eyebrow">{isParcela ? 'Inmobiliaria' : 'Servicio'}</span>
+        <h2>{s.title}</h2>
+        {paras.map((t) => <p>{t}</p>)}
+        {s.price && <p class="price"><small>Precio desde</small><b>{money(s.price)}</b></p>}
+        <a class="btn" href="/contacto">{isParcela ? 'Consultar por esta parcela' : 'Contáctanos'} <Icon name="arrow" size={18} /></a>
+      </div>
+      <div class="reveal">{s.hero && <img class="det__img" src={s.hero.src} alt={s.title} width={s.hero.width} height={s.hero.height} loading="eager" />}</div>
+    </div>
+  </section>
+  {s.gallery.length > 0 && (<section class="section section--gray"><div class="container"><div class="section-head section-head--center"><span class="eyebrow">Galería</span><h2>Conoce el lugar</h2></div><Gallery images={s.gallery} title={s.title} /></div></section>)}
+  {others.length > 0 && (<section class="section"><div class="container"><div class="section-head section-head--center"><span class="eyebrow">Más opciones</span><h2>{isParcela ? 'Otras parcelas' : 'Otros servicios'}</h2></div><div class="grid grid--3">{others.map((o) => <ServiceCard s={o} />)}</div></div></section>)}
+  <CtaBand />
+</Base>
+<style>
+  .det{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,90px);align-items:center}
+  .det__img{width:100%;height:auto;max-height:560px;object-fit:cover}
+  .price{display:flex;flex-direction:column;border-left:4px solid var(--orange);padding-left:18px;margin:28px 0}
+  .price small{font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-family:var(--font-head);font-weight:600}.price b{font-family:var(--font-head);font-weight:600;font-size:1.55rem;color:var(--charcoal)}
+  @media (max-width:900px){.det{grid-template-columns:1fr}}
+</style>

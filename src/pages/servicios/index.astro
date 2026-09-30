@@ -1,0 +1,14 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import ServiceCard from '../../components/ServiceCard.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import { getContent } from '../../lib/wp';
+const c = await getContent();
+const list = c.services.filter((s) => s.kind === 'servicio');
+---
+<Base title="Servicios" description="Construcción de viviendas, diseño y arquitectura, regularización, proyectos sanitarios y eléctricos, topografía e inmobiliaria en Ancud, Chiloé.">
+  <PageHero title="Nuestros servicios" lead="Acompañamos tu proyecto desde el diseño y los permisos hasta la entrega llave en mano." image={c.projects[1]?.hero} crumbs={[{ label: 'Servicios' }]} />
+  <section class="section section--gray"><div class="container"><div class="section-head section-head--center"><span class="eyebrow">Servicios</span><h2>Nuestros Servicios</h2></div><div class="grid grid--3">{list.map((s) => <ServiceCard s={s} />)}</div></div></section>
+  <CtaBand />
+</Base>

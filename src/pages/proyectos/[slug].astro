@@ -1,0 +1,66 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageHero from '../../components/PageHero.astro';
+import Gallery from '../../components/Gallery.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import Icon from '../../components/Icon.astro';
+import { getContent } from '../../lib/wp';
+export async function getStaticPaths() {
+  const c = await getContent();
+  return c.projects.map((p, i) => ({ params: { slug: p.slug }, props: { p, prev: c.projects[i - 1], next: c.projects[i + 1] } }));
+}
+const { p, prev, next } = Astro.props;
+// Une líneas que continúan la anterior (empiezan en minúscula): "Casa de un piso" + "con:" → "Casa de un piso con:"
+const lines = p.description.split('\n').map((l) => l.trim()).filter(Boolean).reduce<string[]>((acc, l) => {
+  if (acc.length && /^\p{Ll}/u.test(l)) acc[acc.length - 1] += ' ' + l; else acc.push(l);
+  return acc;
+}, []);
+---
+<Base title={`Proyecto ${p.title}`} description={`Proyecto ${p.title}${p.surface ? ` · ${p.surface}` : ''}${p.location ? ` · ${p.location}` : ''}. Vivienda construida por Constructora Azteca en Chiloé.`} image={p.hero?.src} type="article">
+  <PageHero title={`Proyecto ${p.title}`} image={p.hero} crumbs={[{ label: 'Proyectos', href: '/proyectos' }, { label: p.title }]} />
+  <section class="section">
+    <div class="container det">
+      <div class="det__img reveal">{p.hero && <img src={p.hero.src} alt={p.title} width={p.hero.width} height={p.hero.height} fetchpriority="high" />}</div>
+      <aside class="det__info reveal">
+        <span class="eyebrow">Ficha del proyecto</span>
+        <h2 class="det__t">{p.title}</h2>
+        <dl>
+          {p.surface && <div><dt><Icon name="ruler" size={22} /> Superficie</dt><dd>{p.surface}</dd></div>}
+          {p.location && <div><dt><Icon name="pin" size={22} /> Ubicación</dt><dd>{p.location}</dd></div>}
+        </dl>
+        {lines.length > 0 && <ul class="det__list">{lines.map((l) => <li>{l}</li>)}</ul>}
+        <a class="btn" href={`/contacto`}>Quiero un proyecto así <Icon name="arrow" size={18} /></a>
+      </aside>
+    </div>
+  </section>
+  {p.gallery.length > 0 && (
+    <section class="gal-sec">
+      <div class="container"><p class="gal-label">Galería</p><Gallery images={p.gallery} title={p.title} /></div>
+    </section>
+  )}
+  <section class="pn"><div class="container pn__in">
+    {prev ? <a href={`/proyectos/${prev.slug}`}><Icon name="left" size={18} /> <span><small>Anterior</small>{prev.title}</span></a> : <span></span>}
+    <a class="pn__all" href="/proyectos">Todos los proyectos</a>
+    {next ? <a href={`/proyectos/${next.slug}`} class="r"><span><small>Siguiente</small>{next.title}</span> <Icon name="arrow" size={18} /></a> : <span></span>}
+  </div></section>
+  <CtaBand />
+</Base>
+<style>
+  .gal-sec{padding-bottom:clamp(52px,7vw,92px)}
+  .gal-label{font-family:var(--font-head);font-size:.72rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--gray-600);margin:0 0 16px}
+  .det{display:grid;grid-template-columns:1.25fr 1fr;gap:clamp(32px,5vw,72px);align-items:start}
+  .det__img img{width:100%;height:auto;object-fit:cover}
+  .det__info{position:sticky;top:110px}
+  .det__t{font-size:clamp(1.25rem,1.7vw,1.5rem);font-weight:600;letter-spacing:.01em;margin-bottom:.2em}
+  dl{margin:20px 0;display:grid;gap:0;border-top:1px solid #e6e6e6}
+  dl>div{display:flex;justify-content:space-between;gap:20px;padding:16px 0;border-bottom:1px solid #e6e6e6}
+  dt{display:flex;align-items:center;gap:12px;font-family:var(--font-head);font-weight:500;font-size:.85rem;color:var(--charcoal)}dt svg{color:var(--orange-dark)}
+  dd{margin:0;text-align:right;font-size:.92rem}
+  .det__list{list-style:none;padding:0;margin:0 0 26px;display:grid;gap:4px;font-size:.92rem}
+  .det__list li{padding-left:20px;position:relative}.det__list li::before{content:"";position:absolute;left:3px;top:.78em;width:5px;height:5px;border-radius:50%;background:var(--gray-400)}
+  .pn{border-top:1px solid #eee}.pn__in{display:flex;justify-content:space-between;align-items:center;gap:20px;padding-block:28px;flex-wrap:wrap}
+  .pn a{display:flex;align-items:center;gap:14px;font-family:var(--font-head);font-weight:600;font-size:.9rem;color:var(--charcoal)}.pn a:hover{color:var(--orange-dark)}
+  .pn small{display:block;font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gray-400);font-weight:600}.pn .r{text-align:right}
+  .pn__all{font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;border-bottom:2px solid var(--orange)}
+  @media (max-width:900px){.det{grid-template-columns:1fr}.det__info{position:static}}
+</style>

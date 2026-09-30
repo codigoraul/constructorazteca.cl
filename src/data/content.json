@@ -1,0 +1,4445 @@
+{
+ "projects": [
+  {
+   "slug": "proyecto-pupelde-ii",
+   "title": "Pupelde II",
+   "surface": "91.69 m²",
+   "description": "Casa de dos piso\nPrimer piso:\n1 dormitorio\n1 baño social\nLiving\nCocina americana\nSegundo Piso\n2 dormitorios\n1 baño",
+   "location": "Sector urbano-Ancud",
+   "hero": {
+    "src": "/media/2026-06-fachada-jona1.webp",
+    "small": "/media/2026-06-fachada-jona1-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Pupelde II"
+   },
+   "card": {
+    "src": "/media/2026-06-fachada-post.webp",
+    "small": "/media/2026-06-fachada-post-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Pupelde II"
+   },
+   "gallery": [
+    {
+     "src": "/media/2026-06-fachada-jona1-1.webp",
+     "small": "/media/2026-06-fachada-jona1-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde II – imagen 1"
+    },
+    {
+     "src": "/media/2026-06-costado.webp",
+     "small": "/media/2026-06-costado-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde II – imagen 2"
+    },
+    {
+     "src": "/media/2026-06-fachada-post-1.webp",
+     "small": "/media/2026-06-fachada-post-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde II – imagen 3"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-1.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 4"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-6.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-6-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde II – imagen 5"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-3.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-3-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde II – imagen 6"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde II – imagen 7"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-50-13-pm-2.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-50-13-pm-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 8"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-50-13-pm-3.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-50-13-pm-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 9"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-50-13-pm-1.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-50-13-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 10"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 11"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-10.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-33-23-pm-10-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 12"
+    },
+    {
+     "src": "/media/2026-06-habitacion1-1.webp",
+     "small": "/media/2026-06-habitacion1-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde II – imagen 13"
+    },
+    {
+     "src": "/media/2026-06-habitacion3.webp",
+     "small": "/media/2026-06-habitacion3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 14"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm-1.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 15"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm-2.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 16"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm-3.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-4-03-28-pm-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 17"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-39-54-pm.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-39-54-pm-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 18"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-40-30-pm.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-40-30-pm-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 19"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-41-19-pm.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-41-19-pm-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 20"
+    },
+    {
+     "src": "/media/2026-06-habitacion.webp",
+     "small": "/media/2026-06-habitacion-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 21"
+    },
+    {
+     "src": "/media/2026-06-habiacion-2.webp",
+     "small": "/media/2026-06-habiacion-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 22"
+    },
+    {
+     "src": "/media/2026-06-whatsapp-image-2026-05-08-at-3-39-54-pm-3.webp",
+     "small": "/media/2026-06-whatsapp-image-2026-05-08-at-3-39-54-pm-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 23"
+    },
+    {
+     "src": "/media/2026-06-habitacion1.webp",
+     "small": "/media/2026-06-habitacion1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde II – imagen 24"
+    }
+   ],
+   "order": 0
+  },
+  {
+   "slug": "proyecto-san-juan",
+   "title": "San Juan",
+   "surface": "81.18 m²",
+   "description": "Casa de un piso\ncon:\n1 dormitorio principal con walking closet\n2 dormitorios auxiliares\n1 baño\nCocina americana- linving - comedor.",
+   "location": "Sector rural-Ancud",
+   "hero": {
+    "src": "/media/2026-05-fachada-principal-martina-2.webp",
+    "small": "/media/2026-05-fachada-principal-martina-2-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "San Juan"
+   },
+   "card": {
+    "src": "/media/2026-05-fachada-pr.webp",
+    "small": "/media/2026-05-fachada-pr-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "San Juan"
+   },
+   "gallery": [
+    {
+     "src": "/media/2026-05-facahada-lateral.webp",
+     "small": "/media/2026-05-facahada-lateral-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "San Juan – imagen 1"
+    },
+    {
+     "src": "/media/2026-05-fachada-pr.webp",
+     "small": "/media/2026-05-fachada-pr-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "San Juan – imagen 2"
+    },
+    {
+     "src": "/media/2026-05-fachada-pos.webp",
+     "small": "/media/2026-05-fachada-pos-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "San Juan – imagen 3"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-34-copia-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-34-copia-copia-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "San Juan – imagen 4"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-33-copia-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-33-copia-copia-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "San Juan – imagen 5"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-43-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-43-copia-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 6"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-37-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-37-copia-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "San Juan – imagen 7"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-44-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-44-copia-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 8"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-13-at-11-01-41-am-3-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-13-at-11-01-41-am-3-copia-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 9"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-13-at-11-01-41-am-1-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-13-at-11-01-41-am-1-copia-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 10"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-39-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-39-copia-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 11"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-45-copia.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-45-copia-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 12"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-37.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-37-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 13"
+    },
+    {
+     "src": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-36.webp",
+     "small": "/media/2026-05-whatsapp-image-2026-03-12-at-7-00-39-pm-36-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "San Juan – imagen 14"
+    }
+   ],
+   "order": 1
+  },
+  {
+   "slug": "proyecto-caracoles-ii",
+   "title": "Caracoles II",
+   "surface": "44.83 m²",
+   "description": "Casa de un piso\ncon:\n2 dormitorios\n1 baño\nCocina americana- linving - comedor.\nAltillo",
+   "location": "Sector rural-Ancud",
+   "hero": {
+    "src": "/media/2026-04-fachada-nicol.webp",
+    "small": "/media/2026-04-fachada-nicol-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Caracoles II"
+   },
+   "card": {
+    "src": "/media/2026-04-fachada-2-nicol.webp",
+    "small": "/media/2026-04-fachada-2-nicol-640.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Caracoles II"
+   },
+   "gallery": [
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-2.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 1"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-03-at-9-19-29-am-4.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-03-at-9-19-29-am-4-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Caracoles II – imagen 2"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-03-at-9-19-29-am-7.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-03-at-9-19-29-am-7-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Caracoles II – imagen 3"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-4.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 4"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-03-at-9-19-29-am-3.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-03-at-9-19-29-am-3-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Caracoles II – imagen 5"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-10.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-10-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 6"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-7.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-7-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 7"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-11.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-11-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 8"
+    },
+    {
+     "src": "/media/2026-04-habitacion.webp",
+     "small": "/media/2026-04-habitacion-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 9"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-12.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-12-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 10"
+    },
+    {
+     "src": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-9.webp",
+     "small": "/media/2026-04-whatsapp-image-2026-02-19-at-6-11-47-pm-9-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caracoles II – imagen 11"
+    }
+   ],
+   "order": 2
+  },
+  {
+   "slug": "proyecto-araucarias",
+   "title": "Araucarias",
+   "surface": "62.26 m²",
+   "description": "Casa de un piso\ncon:\n2 dormitorios\n2 baños\ncocina americana- linving - comedor.\nzona de lavanderia\npatio techado.",
+   "location": "Sector urbano-Ancud",
+   "hero": {
+    "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-2-1.webp",
+    "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-2-1-640.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Araucarias"
+   },
+   "card": {
+    "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-1.webp",
+    "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-1-640.webp",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Araucarias"
+   },
+   "gallery": [
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 1"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-2-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-2-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 2"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-32-pm-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-32-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 3"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-3.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-37-pm-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 4"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-34-pm-3.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-34-pm-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 5"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-34-pm-2-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-34-pm-2-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 6"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-31-pm-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-31-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 7"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-4.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 8"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-2-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-2-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 9"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-3-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-3-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 10"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-36-pm-3.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-36-pm-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 11"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-36-pm-2-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-36-pm-2-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 12"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-36-pm-1-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-36-pm-1-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 13"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-34-pm-1-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-34-pm-1-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 14"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-1-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-22-at-4-42-35-pm-1-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Araucarias – imagen 15"
+    }
+   ],
+   "order": 3
+  },
+  {
+   "slug": "proyecto-puguenun-ii",
+   "title": "Pugueñun II",
+   "surface": "66.68 m²",
+   "description": "Casa de un piso\ncon:\n2 dormitorios\n1 baño , cocina americana- linving - comedor.",
+   "location": "Sector rural-Ancud",
+   "hero": {
+    "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-18.webp",
+    "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-18-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Pugueñun II"
+   },
+   "card": {
+    "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm.webp",
+    "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Pugueñun II"
+   },
+   "gallery": [
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-18.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-18-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pugueñun II – imagen 1"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-3.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-3-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pugueñun II – imagen 2"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-1-1-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-1-1-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pugueñun II – imagen 3"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-2.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-2-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pugueñun II – imagen 4"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-4.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 5"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-5.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-5-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 6"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-6.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-6-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 7"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-8.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-8-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 8"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-9.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-9-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 9"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-10.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-10-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pugueñun II – imagen 10"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-15.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-15-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 11"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-12.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-12-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 12"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-13.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-13-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 13"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-14.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-14-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 14"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-16.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-16-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 15"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-17.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-12-04-at-4-46-13-pm-17-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pugueñun II – imagen 16"
+    }
+   ],
+   "order": 4
+  },
+  {
+   "slug": "proyecto-pupelde",
+   "title": "Pupelde",
+   "surface": "64.00 m²",
+   "description": "Casa de un piso\ncon:\n3 dormitorios\n1 baño , cocina americana- linving - comedor.",
+   "location": "Sector rural-Ancud",
+   "hero": {
+    "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-1.webp",
+    "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-1-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Pupelde"
+   },
+   "card": {
+    "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am.webp",
+    "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Pupelde"
+   },
+   "gallery": [
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde – imagen 1"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-3.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 2"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-5.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-5-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 3"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-7.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-7-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 4"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-8.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-8-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 5"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-12.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-12-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 6"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-10.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-10-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 7"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-9.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-9-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 8"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-4.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 9"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-13.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-13-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 10"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-11.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-11-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 11"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-14.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-14-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 12"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-16.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-16-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 13"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-15.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-15-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 14"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-17.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-17-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde – imagen 15"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-20.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-20-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 16"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-22.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-22-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 17"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-23.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-23-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 18"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-4.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 19"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-2.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Pupelde – imagen 20"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-18.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-11-18-at-9-19-35-am-18-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Pupelde – imagen 21"
+    }
+   ],
+   "order": 5
+  },
+  {
+   "slug": "proyecto-caicumeo-i",
+   "title": "Caicumeo I",
+   "surface": "60.10 m²",
+   "description": "Casa de un piso\ncon:\n2 dormitorios\n1 baño , cocina americana- linving - comedor.",
+   "location": "Sector Urbano-Ancud",
+   "hero": {
+    "src": "/media/2026-01-fachada1.webp",
+    "small": "/media/2026-01-fachada1-640.webp",
+    "width": 1920,
+    "height": 1203,
+    "alt": "Caicumeo I"
+   },
+   "card": {
+    "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-11.webp",
+    "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-11-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Caicumeo I"
+   },
+   "gallery": [
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-10.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-10-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Caicumeo I – imagen 1"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-11.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-11-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Caicumeo I – imagen 2"
+    },
+    {
+     "src": "/media/2026-01-fachada1.webp",
+     "small": "/media/2026-01-fachada1-640.webp",
+     "width": 1920,
+     "height": 1203,
+     "alt": "Caicumeo I – imagen 3"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-12.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-12-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 4"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-13.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-13-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 5"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-15.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-15-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Caicumeo I – imagen 6"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-20.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-20-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 7"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-1.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 8"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-21.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-21-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 9"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-17.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-17-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 10"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-16.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-24-pm-16-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 11"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-2.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 12"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 13"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-02-at-1-30-17-pm-11-photoroom.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-02-at-1-30-17-pm-11-photoroom-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Caicumeo I – imagen 14"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-3.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 15"
+    },
+    {
+     "src": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-4.webp",
+     "small": "/media/2026-01-whatsapp-image-2025-10-21-at-1-18-25-pm-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Caicumeo I – imagen 16"
+    }
+   ],
+   "order": 6
+  },
+  {
+   "slug": "proyecto-fatima",
+   "title": "Fátima",
+   "surface": "68.33 m²",
+   "description": "Casa de un piso\ncon:\n3 dormitorios\n1 baño , cocina americana- linving - comedor.",
+   "location": "Sector Urbano-Ancud",
+   "hero": {
+    "src": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-2-photoroom.webp",
+    "small": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-2-photoroom-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Fátima"
+   },
+   "card": {
+    "src": "/media/2025-09-fachada-irene.webp",
+    "small": "/media/2025-09-fachada-irene-640.webp",
+    "width": 742,
+    "height": 455,
+    "alt": "Fátima"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-09-fachada-irene-1.webp",
+     "small": "/media/2025-09-fachada-irene-1-640.webp",
+     "width": 742,
+     "height": 455,
+     "alt": "Fátima – imagen 1"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-2-photoroom.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-2-photoroom-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Fátima – imagen 2"
+    },
+    {
+     "src": "/media/2025-09-20250924-1625-image.webp",
+     "small": "/media/2025-09-20250924-1625-image-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 3"
+    },
+    {
+     "src": "/media/2025-09-20250924-1628-image.webp",
+     "small": "/media/2025-09-20250924-1628-image-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 4"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-08-28-at-12-28-02-pm-photoroom.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-08-28-at-12-28-02-pm-photoroom-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Fátima – imagen 5"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-23.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-23-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 6"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-21.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-21-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 7"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-16.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-16-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 8"
+    },
+    {
+     "src": "/media/2025-09-20250924-1715-image.webp",
+     "small": "/media/2025-09-20250924-1715-image-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 9"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-09-03-at-3-55-40-pm.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-09-03-at-3-55-40-pm-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 10"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-20.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-20-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 11"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-18.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-09-03-at-3-35-43-pm-18-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 12"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-12.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-12-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 13"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-11.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-11-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 14"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-10.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-08-28-at-12-23-25-pm-10-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Fátima – imagen 15"
+    }
+   ],
+   "order": 7
+  },
+  {
+   "slug": "proyecto-ancud-jds",
+   "title": "Ancud-JDS",
+   "surface": "74 m²",
+   "description": "Casa de un piso\ncon:\n3 dormitorios\n1 baño , cocina americana- linving - comedor.",
+   "location": "Sector Urbano-Ancud",
+   "hero": {
+    "src": "/media/2025-09-20250924-1403-image.webp",
+    "small": "/media/2025-09-20250924-1403-image-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Ancud-JDS"
+   },
+   "card": {
+    "src": "/media/2025-09-20250924-1414-image.webp",
+    "small": "/media/2025-09-20250924-1414-image-640.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Ancud-JDS"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-09-20250924-1436-image.webp",
+     "small": "/media/2025-09-20250924-1436-image-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 1"
+    },
+    {
+     "src": "/media/2025-09-20250924-1403-image-2.webp",
+     "small": "/media/2025-09-20250924-1403-image-2-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Ancud-JDS – imagen 2"
+    },
+    {
+     "src": "/media/2025-09-20250924-1414-image-1.webp",
+     "small": "/media/2025-09-20250924-1414-image-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 3"
+    },
+    {
+     "src": "/media/2025-09-20250924-1430-image.webp",
+     "small": "/media/2025-09-20250924-1430-image-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 4"
+    },
+    {
+     "src": "/media/2025-09-20250924-1421-image.webp",
+     "small": "/media/2025-09-20250924-1421-image-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 5"
+    },
+    {
+     "src": "/media/2025-09-20250924-1423-image.webp",
+     "small": "/media/2025-09-20250924-1423-image-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 6"
+    },
+    {
+     "src": "/media/2025-09-20250924-1012-image.webp",
+     "small": "/media/2025-09-20250924-1012-image-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 7"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-28.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-28-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 8"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-27.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-27-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 9"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-35.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-35-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 10"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-29.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-29-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 11"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-32.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-32-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 12"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-33.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-33-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 13"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-31.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-31-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 14"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-34.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-34-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Ancud-JDS – imagen 15"
+    },
+    {
+     "src": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-30.webp",
+     "small": "/media/2025-09-whatsapp-image-2025-07-31-at-4-57-32-pm-30-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Ancud-JDS – imagen 16"
+    }
+   ],
+   "order": 8
+  },
+  {
+   "slug": "proyecto-huillinco-madrid",
+   "title": "Huillinco-Madrid",
+   "surface": "73,29 m²",
+   "description": "Casa de un piso\ncon:\nHabitación principal con baño.\nHabitación secundaria, baño social, cocina, área de lavado, linving - comedor.",
+   "location": "Sector rural-Ancud",
+   "hero": {
+    "src": "/media/2025-07-whatsapp-image-2025-06-03-at-12-09-38-pm.webp",
+    "small": "/media/2025-07-whatsapp-image-2025-06-03-at-12-09-38-pm-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Huillinco-Madrid"
+   },
+   "card": {
+    "src": "/media/2025-07-whatsapp-image-2025-06-03-at-12-09-38-pm.webp",
+    "small": "/media/2025-07-whatsapp-image-2025-06-03-at-12-09-38-pm-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Huillinco-Madrid"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-9.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-9-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Huillinco-Madrid – imagen 1"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-7.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-7-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Huillinco-Madrid – imagen 2"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-6-photoroom.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-6-photoroom-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Huillinco-Madrid – imagen 3"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-8-photoroom.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-8-photoroom-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Huillinco-Madrid – imagen 4"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-1-photoroom.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-1-photoroom-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Huillinco-Madrid – imagen 5"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-3-photoroom.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-3-photoroom-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Huillinco-Madrid – imagen 6"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am-4.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 7"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-4.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 8"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-5.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-5-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 9"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 10"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am-2.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 11"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-16-at-5-50-13-pm-2.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-16-at-5-50-13-pm-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 12"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-31-am-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 13"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 14"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-2.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-15-30-am-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 15"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-16-at-5-50-13-pm-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-16-at-5-50-13-pm-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Huillinco-Madrid – imagen 16"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-16-at-5-54-03-pm.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-16-at-5-54-03-pm-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Huillinco-Madrid – imagen 17"
+    }
+   ],
+   "order": 9
+  },
+  {
+   "slug": "proyecto-agrosol-bailey",
+   "title": "Agrosol-Bailey",
+   "surface": "106,12 m²",
+   "description": "Casa de dos pisos:\nPrimer piso:\nDos Habitaciones,\nun baño,\nlogía,\ncocina americana y\nliving.\nSegundo piso:\nÁrea común,\nhabitación principal con baño.",
+   "location": "Sector rural-Ancud",
+   "hero": {
+    "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-1-photoroom.webp",
+    "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-1-photoroom-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Agrosol-Bailey"
+   },
+   "card": {
+    "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-1-photoroom.webp",
+    "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-1-photoroom-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Agrosol-Bailey"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-1-photoroom-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-1-photoroom-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Agrosol-Bailey – imagen 1"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-5-photoroom-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-5-photoroom-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Agrosol-Bailey – imagen 2"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-photoroom.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-photoroom-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Agrosol-Bailey – imagen 3"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-3-photoroom.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-3-photoroom-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Agrosol-Bailey – imagen 4"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-19-at-4-04-31-pm-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-19-at-4-04-31-pm-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Agrosol-Bailey – imagen 5"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-7.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-7-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Agrosol-Bailey – imagen 6"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-6-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-6-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 7"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-4-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-4-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 8"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-3-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-3-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 9"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-1-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-1-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 10"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-1-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-1-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 11"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-2-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-05-19-at-4-16-01-pm-2-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Agrosol-Bailey – imagen 12"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-4-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-4-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 13"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-6-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-6-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 14"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-2-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-2-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 15"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-8-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-55-am-8-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 16"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-3-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-3-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 17"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-5-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-5-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 18"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-4-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-4-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 19"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-6-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-6-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 20"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-5.webp",
+     "small": "/media/2025-07-whatsapp-image-2025-06-11-at-10-13-56-am-5-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Agrosol-Bailey – imagen 21"
+    }
+   ],
+   "order": 10
+  },
+  {
+   "slug": "proyecto-anibal-pinto",
+   "title": "Castillo",
+   "surface": "46 m²",
+   "description": "Casa de un piso:\nUna habitación,\nun baño,\ncocina americana y\nliving",
+   "location": "Sector urbano-Ancud",
+   "hero": {
+    "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm.webp",
+    "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Castillo"
+   },
+   "card": {
+    "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-18-pm.webp",
+    "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-18-pm-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Castillo"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-18-pm.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-18-pm-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Castillo – imagen 1"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-10.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-10-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 2"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-6.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-6-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Castillo – imagen 3"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-7.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-7-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 4"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-3.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-3-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 5"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-12-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-12-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 6"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-1.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 7"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-2.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-2-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 8"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-13.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-13-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 9"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-14.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-14-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 10"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-8.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-8-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 11"
+    },
+    {
+     "src": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-11.webp",
+     "small": "/media/2025-07-whatsapp-image-2024-12-16-at-5-41-19-pm-11-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Castillo – imagen 12"
+    }
+   ],
+   "order": 11
+  },
+  {
+   "slug": "proyecto-castillo-anibal-pinto-2",
+   "title": "Villa Archipielago",
+   "surface": "101.71 m²",
+   "description": "Casa de dos pisos:\n3 habitaciones,\n1 estudio,\n2 baños,\ncocina,\nliving comedor.",
+   "location": "Sector Urbano - Ancud Chiloé",
+   "hero": {
+    "src": "/media/2025-05-facha-principal.webp",
+    "small": "/media/2025-05-facha-principal-640.webp",
+    "width": 1200,
+    "height": 1190,
+    "alt": "Villa Archipielago"
+   },
+   "card": {
+    "src": "/media/2025-05-facha-principal-1.webp",
+    "small": "/media/2025-05-facha-principal-1-640.webp",
+    "width": 1200,
+    "height": 1068,
+    "alt": "Villa Archipielago"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-2.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 1"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-1.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Villa Archipielago – imagen 2"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Villa Archipielago – imagen 3"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-56.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-56-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 4"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-3.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 5"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-19-at-15-33-14.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-19-at-15-33-14-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 6"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-5.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-28-at-20-58-57-5-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 7"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-17-3.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-17-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 8"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-19-at-15-33-14-1.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-19-at-15-33-14-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 9"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-17-1.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-17-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 10"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-17.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-17-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 11"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-18.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-18-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 12"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-18-1.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-18-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 13"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-19.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-19-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 14"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-18-3.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-18-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 15"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-19-3.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-14-at-14-39-19-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 16"
+    },
+    {
+     "src": "/media/2025-05-whatsapp-image-2025-03-11-at-15-26-09.webp",
+     "small": "/media/2025-05-whatsapp-image-2025-03-11-at-15-26-09-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Villa Archipielago – imagen 17"
+    }
+   ],
+   "order": 12
+  },
+  {
+   "slug": "proyecto-castillo-anibal-pinto",
+   "title": "Gladys Marin",
+   "surface": "98.57 m²",
+   "description": "Casa de un piso:\nTres habitaciones, (habitación pricipal con baño), un baño social\ncocina americana y\nliving",
+   "location": "Sector Urbano - Ancud Chiloé",
+   "hero": {
+    "src": "/media/2025-01-whatsapp-image-2025-04-23-at-16-29-09-photoroom.webp",
+    "small": "/media/2025-01-whatsapp-image-2025-04-23-at-16-29-09-photoroom-640.webp",
+    "width": 960,
+    "height": 1280,
+    "alt": "Gladys Marin"
+   },
+   "card": {
+    "src": "/media/2025-01-fachada-daniela.webp",
+    "small": "/media/2025-01-fachada-daniela-640.webp",
+    "width": 960,
+    "height": 1102,
+    "alt": "Gladys Marin"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-05-03-at-17-59-45-photoroom.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-05-03-at-17-59-45-photoroom-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Gladys Marin – imagen 1"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 2"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-23-1-photoroom.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-23-1-photoroom-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Gladys Marin – imagen 3"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-23.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-23-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 4"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-25-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-25-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 5"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-23-at-16-29-09-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-23-at-16-29-09-2-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Gladys Marin – imagen 6"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-8.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-8-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 7"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-23-at-16-29-09-1.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-23-at-16-29-09-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Gladys Marin – imagen 8"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-05-at-12-19-29.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-05-at-12-19-29-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 9"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 10"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-3.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 11"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-25.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-25-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 12"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-6.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-24-6-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 13"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-26-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-11-at-11-09-26-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 14"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-04-05-at-12-29-50-3.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-04-05-at-12-29-50-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Gladys Marin – imagen 15"
+    }
+   ],
+   "order": 13
+  },
+  {
+   "slug": "proyecto-costanera-norte",
+   "title": "Costanera Norte",
+   "surface": "71,00 m²",
+   "description": "Casa de un piso:\nTres habitaciones,\nun baño,\ncocina americana y\nliving",
+   "location": "Sector Urbano-Ancud Chiloé",
+   "hero": {
+    "src": "/media/2025-01-fachada-18-32-56-17.webp",
+    "small": "/media/2025-01-fachada-18-32-56-17-640.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Costanera Norte"
+   },
+   "card": {
+    "src": "/media/2025-01-fachada-18-32-56-17.webp",
+    "small": "/media/2025-01-fachada-18-32-56-17-640.webp",
+    "width": 1024,
+    "height": 768,
+    "alt": "Costanera Norte"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-01-fachada-18-32-56-17.webp",
+     "small": "/media/2025-01-fachada-18-32-56-17-640.webp",
+     "width": 1024,
+     "height": 768,
+     "alt": "Costanera Norte – imagen 1"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-20.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-20-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Costanera Norte – imagen 2"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-18.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-18-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Costanera Norte – imagen 3"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-10.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-10-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 4"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-16.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-16-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 5"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-8.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-8-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 6"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-7.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-7-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 7"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-13.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-13-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 8"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-11.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-11-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 9"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-12.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-12-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 10"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-9.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-9-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 11"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-14.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-14-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 12"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-16-05-12.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-16-05-12-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 13"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-4.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-12-13-at-18-32-56-4-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Costanera Norte – imagen 14"
+    }
+   ],
+   "order": 14
+  },
+  {
+   "slug": "proyecto-vieille-puguenun",
+   "title": "Vieille",
+   "surface": "70,66 m²",
+   "description": "Casa de un piso:\nDos habitaciones,\nun baño,\ncocina americana y\nliving",
+   "location": "Sector rural-Ancud",
+   "hero": {
+    "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16.webp",
+    "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Vieille"
+   },
+   "card": {
+    "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16.webp",
+    "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Vieille"
+   },
+   "gallery": [
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-1.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Vieille – imagen 1"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-2.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-2-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Vieille – imagen 2"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-3.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-16-3-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Vieille – imagen 3"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-17-1.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-17-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 4"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-17-2.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-17-2-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 5"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 6"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-17-3.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-17-3-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Vieille – imagen 7"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18-1.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 8"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18-2.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18-2-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 9"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18-3.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-18-3-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 10"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 11"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19-1.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 12"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19-3.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19-3-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 13"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19-4.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-19-4-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 14"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-20.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-20-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 15"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-20-1.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-20-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Vieille – imagen 16"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-20-2.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-20-2-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Vieille – imagen 17"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-21.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-21-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Vieille – imagen 18"
+    },
+    {
+     "src": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-21-1.webp",
+     "small": "/media/2024-08-whatsapp-image-2024-07-25-at-20-31-21-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Vieille – imagen 19"
+    }
+   ],
+   "order": 15
+  },
+  {
+   "slug": "proyecto-vidal-ancud",
+   "title": "Vidal Ancud",
+   "surface": "44 m²",
+   "description": "Dos habitaciones\nun baño y cocina tipo americana.",
+   "location": "Sector urbano-Ancud",
+   "hero": {
+    "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-27-1.webp",
+    "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-27-1-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Vidal Ancud"
+   },
+   "card": {
+    "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-19-1-1.webp",
+    "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-19-1-1-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Vidal Ancud"
+   },
+   "gallery": [
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-59.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-59-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Vidal Ancud – imagen 1"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-21-30-07.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-21-30-07-640.webp",
+     "width": 1156,
+     "height": 867,
+     "alt": "Vidal Ancud – imagen 2"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-21-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-21-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Vidal Ancud – imagen 3"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-19-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-19-2-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Vidal Ancud – imagen 4"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-58.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-58-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 5"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-57.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-57-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 6"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-56-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-56-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 7"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-56.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-56-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 8"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-54.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-54-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 9"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-55.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-55-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 10"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-36.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-36-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 11"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-51.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-51-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 12"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-52.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-52-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Vidal Ancud – imagen 13"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-50.webp",
+     "small": "/media/2024-05-whatsapp-image-2023-06-25-at-12-35-50-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Vidal Ancud – imagen 14"
+    }
+   ],
+   "order": 16
+  },
+  {
+   "slug": "proyecto-elgueta-ancud",
+   "title": "Elgueta",
+   "surface": "104,92 m²",
+   "description": "Casa de dos pisos, con\ncinco habitaciones (una habitación con walking closet ),\ndos baños, cocina tipo americana y logia.",
+   "location": "Sector urbano-Ancud",
+   "hero": {
+    "src": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-07.webp",
+    "small": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-07-640.webp",
+    "width": 1280,
+    "height": 1045,
+    "alt": "Elgueta"
+   },
+   "card": {
+    "src": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-07-1.webp",
+    "small": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-07-1-640.webp",
+    "width": 1280,
+    "height": 1045,
+    "alt": "Elgueta"
+   },
+   "gallery": [
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-30.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-30-640.webp",
+     "width": 993,
+     "height": 1280,
+     "alt": "Elgueta – imagen 1"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-07-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-16-56-07-1-640.webp",
+     "width": 1280,
+     "height": 1045,
+     "alt": "Elgueta – imagen 2"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-16-57-01.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-16-57-01-640.webp",
+     "width": 1280,
+     "height": 968,
+     "alt": "Elgueta – imagen 3"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-51-48.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-51-48-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "Elgueta – imagen 4"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-02-09-at-17-30-51.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-02-09-at-17-30-51-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "Elgueta – imagen 5"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-43-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-43-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 6"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46-3.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46-3-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 7"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-43-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-43-2-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 8"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-44.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-44-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 9"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-17-11-46.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-17-11-46-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Elgueta – imagen 10"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-39.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-39-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 11"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-17-12-02-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-17-12-02-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Elgueta – imagen 12"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-41.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-41-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 13"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-17-11-44.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-17-11-44-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Elgueta – imagen 14"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-43.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-43-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Elgueta – imagen 15"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-44-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-44-2-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 16"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-17-11-42.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-17-11-42-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Elgueta – imagen 17"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Elgueta – imagen 18"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-45-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-45-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 19"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 20"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-45.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-45-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 21"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-18-at-17-12-03-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-18-at-17-12-03-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Elgueta – imagen 22"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-44-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-44-1-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Elgueta – imagen 23"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-19-22-46-2-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Elgueta – imagen 24"
+    }
+   ],
+   "order": 17
+  },
+  {
+   "slug": "proyecto-javier-agrosol",
+   "title": "Javier Agrosol",
+   "surface": "102,18 m²",
+   "description": "Cuatro habitaciones (una habitación con walking closet y baño),\nbaño social y\ncocina tipo americana.",
+   "location": "Sector rural Agrosol.",
+   "hero": {
+    "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-03.webp",
+    "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-03-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Javier Agrosol"
+   },
+   "card": {
+    "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-03-1.webp",
+    "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-03-1-640.webp",
+    "width": 1280,
+    "height": 960,
+    "alt": "Javier Agrosol"
+   },
+   "gallery": [
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04-640.webp",
+     "width": 1156,
+     "height": 867,
+     "alt": "Javier Agrosol – imagen 1"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-05-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-05-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Javier Agrosol – imagen 2"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-03-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-03-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Javier Agrosol – imagen 3"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-05.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-05-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Javier Agrosol – imagen 4"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04-3.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04-3-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Javier Agrosol – imagen 5"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04-1-640.webp",
+     "width": 1156,
+     "height": 867,
+     "alt": "Javier Agrosol – imagen 6"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 7"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-37-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-37-2-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Javier Agrosol – imagen 8"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-36-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-36-1-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Javier Agrosol – imagen 9"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-32.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-32-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 10"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-38.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-38-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Javier Agrosol – imagen 11"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-39.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-39-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Javier Agrosol – imagen 12"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-40.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-40-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 13"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-38-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-38-1-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Javier Agrosol – imagen 14"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-33.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-33-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 15"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-21-04-2-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "Javier Agrosol – imagen 16"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-37-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-37-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 17"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-37.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-37-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 18"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-41.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-41-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 19"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 20"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-42-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-42-2-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 21"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-36-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-36-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 22"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-36.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-36-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 23"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35-4.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35-4-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 24"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35-3.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-35-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 25"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-34-3.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-34-3-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 26"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-34-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-34-2-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 27"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-34.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-34-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 28"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-33-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-14-33-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Javier Agrosol – imagen 29"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-43-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-43-1-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 30"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-43.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-43-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 31"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-42-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-42-1-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 32"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-42.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-42-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 33"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-41-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-41-1-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 34"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-40-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-22-06-40-1-640.webp",
+     "width": 1440,
+     "height": 1440,
+     "alt": "Javier Agrosol – imagen 35"
+    }
+   ],
+   "order": 18
+  },
+  {
+   "slug": "proyecto-farias-puguenun",
+   "title": "Farías.",
+   "surface": "56 m²",
+   "description": "Con dos habitaciones (una con walking closet)\nun baño y\ncocina tipo americana.",
+   "location": "Sector rural Pugueñun.",
+   "hero": {
+    "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-13-1.webp",
+    "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-13-1-640.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Farías."
+   },
+   "card": {
+    "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-07.webp",
+    "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-07-640.webp",
+    "width": 1280,
+    "height": 1280,
+    "alt": "Farías."
+   },
+   "gallery": [
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-13-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-13-1-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Farías. – imagen 1"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-13.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-13-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Farías. – imagen 2"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-06-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-06-1-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 3"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-06.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-06-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 4"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-12-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-12-1-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 5"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-12.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-12-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 6"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-11.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-11-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 7"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-52.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-52-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 8"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-07-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-07-1-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 9"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-53-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-53-2-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 10"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-08.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-51-08-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 11"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-53-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-53-1-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 12"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-53.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-53-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 13"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-52-2.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-52-2-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 14"
+    },
+    {
+     "src": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-52-1.webp",
+     "small": "/media/2024-05-whatsapp-image-2024-05-17-at-20-57-52-1-640.webp",
+     "width": 1280,
+     "height": 1280,
+     "alt": "Farías. – imagen 15"
+    }
+   ],
+   "order": 19
+  },
+  {
+   "slug": "proyecto-pacheco-lajas-blancas",
+   "title": "Pacheco Lajas Blancas",
+   "surface": "48 m²",
+   "description": "",
+   "location": "Camino lajas blancas",
+   "hero": {
+    "src": "/media/2023-05-pachecolajasblancas.webp",
+    "small": "/media/2023-05-pachecolajasblancas-640.webp",
+    "width": 1164,
+    "height": 655,
+    "alt": "Pacheco Lajas Blancas"
+   },
+   "card": {
+    "src": "/media/2023-05-pachecolajasblancas.webp",
+    "small": "/media/2023-05-pachecolajasblancas-640.webp",
+    "width": 1164,
+    "height": 655,
+    "alt": "Pacheco Lajas Blancas"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-24-12-1-e1685399731190.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-24-12-1-e1685399731190-640.webp",
+     "width": 1164,
+     "height": 655,
+     "alt": "Pacheco Lajas Blancas – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-24-12-e1685399755646.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-24-12-e1685399755646-640.webp",
+     "width": 1164,
+     "height": 655,
+     "alt": "Pacheco Lajas Blancas – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-24-13.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-24-13-640.webp",
+     "width": 655,
+     "height": 1164,
+     "alt": "Pacheco Lajas Blancas – imagen 3"
+    }
+   ],
+   "order": 20
+  },
+  {
+   "slug": "proyecto-fam-caracoles",
+   "title": "FAM Caracoles",
+   "surface": "139 m²",
+   "description": "",
+   "location": "Caracoles rural",
+   "hero": {
+    "src": "/media/2024-05-whatsapp-image-2024-05-18-at-17-39-51.webp",
+    "small": "/media/2024-05-whatsapp-image-2024-05-18-at-17-39-51-640.webp",
+    "width": 1100,
+    "height": 816,
+    "alt": "FAM Caracoles"
+   },
+   "card": {
+    "src": "/media/2023-05-fam-caracoles-det.webp",
+    "small": "/media/2023-05-fam-caracoles-det-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "FAM Caracoles"
+   },
+   "gallery": [
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-03.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-03-640.webp",
+     "width": 1156,
+     "height": 867,
+     "alt": "FAM Caracoles – imagen 1"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2024-05-18-at-17-39-51-1.webp",
+     "small": "/media/2025-01-whatsapp-image-2024-05-18-at-17-39-51-1-640.webp",
+     "width": 1100,
+     "height": 813,
+     "alt": "FAM Caracoles – imagen 2"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-02.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-02-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "FAM Caracoles – imagen 3"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01-1.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01-1-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 4"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01-2-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 5"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2023-10-06-at-21-51-15.webp",
+     "small": "/media/2025-01-whatsapp-image-2023-10-06-at-21-51-15-640.webp",
+     "width": 1600,
+     "height": 1201,
+     "alt": "FAM Caracoles – imagen 6"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2023-10-06-at-21-51-19-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2023-10-06-at-21-51-19-2-640.webp",
+     "width": 1600,
+     "height": 1201,
+     "alt": "FAM Caracoles – imagen 7"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2023-10-06-at-21-51-20.webp",
+     "small": "/media/2025-01-whatsapp-image-2023-10-06-at-21-51-20-640.webp",
+     "width": 1600,
+     "height": 1201,
+     "alt": "FAM Caracoles – imagen 8"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 9"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-00-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-00-2-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 10"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-13-59-2.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-13-59-2-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 11"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-00-1.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-00-1-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 12"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-00.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-00-640.webp",
+     "width": 1156,
+     "height": 867,
+     "alt": "FAM Caracoles – imagen 13"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-13-59.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-13-59-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 14"
+    },
+    {
+     "src": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01-3.webp",
+     "small": "/media/2025-01-whatsapp-image-2025-01-04-at-17-14-01-3-640.webp",
+     "width": 867,
+     "height": 1156,
+     "alt": "FAM Caracoles – imagen 15"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-10-56-53.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-10-56-53-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "FAM Caracoles – imagen 16"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-44.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-44-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "FAM Caracoles – imagen 17"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-42.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-42-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "FAM Caracoles – imagen 18"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-10-56-50-1.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-10-56-50-1-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "FAM Caracoles – imagen 19"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-10-54-09.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-10-54-09-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "FAM Caracoles – imagen 20"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-10-56-51.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-10-56-51-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "FAM Caracoles – imagen 21"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-40.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-40-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "FAM Caracoles – imagen 22"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-09.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-09-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "FAM Caracoles – imagen 23"
+    }
+   ],
+   "order": 21
+  },
+  {
+   "slug": "proyecto-monik-pauldeo",
+   "title": "Monik Pauldeo",
+   "surface": "127,60 m²",
+   "description": "",
+   "location": "Pauldeo",
+   "hero": {
+    "src": "/media/2023-05-pauldeo-dest.webp",
+    "small": "/media/2023-05-pauldeo-dest-640.webp",
+    "width": 1100,
+    "height": 825,
+    "alt": "Monik Pauldeo"
+   },
+   "card": {
+    "src": "/media/2023-05-pauldeo-dest.webp",
+    "small": "/media/2023-05-pauldeo-dest-640.webp",
+    "width": 1100,
+    "height": 825,
+    "alt": "Monik Pauldeo"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-04.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-04-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Monik Pauldeo – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-11-13-56.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-11-13-56-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-11-13-58.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-11-13-58-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-11-16-03.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-11-16-03-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-11-40-58.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-11-40-58-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Monik Pauldeo – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-57-1.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-57-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-57.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-57-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-58-1.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-58-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-58.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-58-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Monik Pauldeo – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-07.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-07-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Monik Pauldeo – imagen 10"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-06.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-06-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 11"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-59.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-22-59-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Monik Pauldeo – imagen 12"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-02.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-02-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Monik Pauldeo – imagen 13"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-04-1.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-12-23-04-1-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Monik Pauldeo – imagen 14"
+    }
+   ],
+   "order": 22
+  },
+  {
+   "slug": "proyecto-pacifico",
+   "title": "Pacifico",
+   "surface": "250 m²",
+   "description": "",
+   "location": "Duhatao",
+   "hero": {
+    "src": "/media/2023-05-casa-pacifico.webp",
+    "small": "/media/2023-05-casa-pacifico-640.webp",
+    "width": 1100,
+    "height": 825,
+    "alt": "Pacifico"
+   },
+   "card": {
+    "src": "/media/2023-05-casa-pacifico-1.webp",
+    "small": "/media/2023-05-casa-pacifico-1-640.webp",
+    "width": 1100,
+    "height": 825,
+    "alt": "Pacifico"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-casa-pacifico-1.webp",
+     "small": "/media/2023-05-casa-pacifico-1-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-00-1.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-00-1-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-57.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-57-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-59.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-59-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-00-2.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-00-2-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "Pacifico – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-00.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-00-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "Pacifico – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-01.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-52-01-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "Pacifico – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-59-2.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-59-2-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "Pacifico – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-23-2.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-23-2-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-31.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-31-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 10"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-28.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-28-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 11"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-31-1.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-51-31-1-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Pacifico – imagen 12"
+    }
+   ],
+   "order": 23
+  },
+  {
+   "slug": "proyecto-jds-lajas-blancas",
+   "title": "Proyecto JDS Lajas Blancas",
+   "surface": "67,22 m²",
+   "description": "",
+   "location": "Sector rural Lajas Blancas",
+   "hero": {
+    "src": "/media/2023-05-lajasblancas-dest.webp",
+    "small": "/media/2023-05-lajasblancas-dest-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Proyecto JDS Lajas Blancas"
+   },
+   "card": {
+    "src": "/media/2023-05-lajasblancas-dest.webp",
+    "small": "/media/2023-05-lajasblancas-dest-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Proyecto JDS Lajas Blancas"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-lajasblancas8.webp",
+     "small": "/media/2023-05-lajasblancas8-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas7.webp",
+     "small": "/media/2023-05-lajasblancas7-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas6.webp",
+     "small": "/media/2023-05-lajasblancas6-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas5.webp",
+     "small": "/media/2023-05-lajasblancas5-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas16.webp",
+     "small": "/media/2023-05-lajasblancas16-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas10.webp",
+     "small": "/media/2023-05-lajasblancas10-640.webp",
+     "width": 966,
+     "height": 1288,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas12.webp",
+     "small": "/media/2023-05-lajasblancas12-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas15.webp",
+     "small": "/media/2023-05-lajasblancas15-640.webp",
+     "width": 1200,
+     "height": 1600,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas.webp",
+     "small": "/media/2023-05-lajasblancas-640.webp",
+     "width": 1280,
+     "height": 960,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas2.webp",
+     "small": "/media/2023-05-lajasblancas2-640.webp",
+     "width": 960,
+     "height": 1280,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 10"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas11.webp",
+     "small": "/media/2023-05-lajasblancas11-640.webp",
+     "width": 1288,
+     "height": 966,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 11"
+    },
+    {
+     "src": "/media/2023-05-lajasblancas14.webp",
+     "small": "/media/2023-05-lajasblancas14-640.webp",
+     "width": 1600,
+     "height": 1200,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 12"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-34-49.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-34-49-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 13"
+    },
+    {
+     "src": "/media/2023-05-whatsapp-image-2023-05-13-at-14-34-50.webp",
+     "small": "/media/2023-05-whatsapp-image-2023-05-13-at-14-34-50-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Proyecto JDS Lajas Blancas – imagen 14"
+    }
+   ],
+   "order": 24
+  },
+  {
+   "slug": "casa-mechaico",
+   "title": "Mechaico",
+   "surface": "63,35 m²",
+   "description": "",
+   "location": "Mechaico",
+   "hero": {
+    "src": "/media/2023-05-imagen-servicios.webp",
+    "small": "/media/2023-05-imagen-servicios-640.webp",
+    "width": 1046,
+    "height": 655,
+    "alt": "Mechaico"
+   },
+   "card": {
+    "src": "/media/2023-06-proyecto-mechaico.webp",
+    "small": "/media/2023-06-proyecto-mechaico-640.webp",
+    "width": 1600,
+    "height": 740,
+    "alt": "Mechaico"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-06-proyectomechaico.webp",
+     "small": "/media/2023-06-proyectomechaico-640.webp",
+     "width": 1600,
+     "height": 739,
+     "alt": "Mechaico – imagen 1"
+    },
+    {
+     "src": "/media/2023-06-proyectomechai.webp",
+     "small": "/media/2023-06-proyectomechai-640.webp",
+     "width": 1600,
+     "height": 739,
+     "alt": "Mechaico – imagen 2"
+    },
+    {
+     "src": "/media/2023-06-proyecto-mechaico.webp",
+     "small": "/media/2023-06-proyecto-mechaico-640.webp",
+     "width": 1600,
+     "height": 740,
+     "alt": "Mechaico – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-p-20220104-161911-1.webp",
+     "small": "/media/2023-05-p-20220104-161911-1-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Mechaico – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-p-20220104-161235-1.webp",
+     "small": "/media/2023-05-p-20220104-161235-1-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Mechaico – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-p-20220104-161340-1.webp",
+     "small": "/media/2023-05-p-20220104-161340-1-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Mechaico – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-p-20220104-161634-1.webp",
+     "small": "/media/2023-05-p-20220104-161634-1-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Mechaico – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-p-20220104-161308-1.webp",
+     "small": "/media/2023-05-p-20220104-161308-1-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Mechaico – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-p-20220104-161313-1.webp",
+     "small": "/media/2023-05-p-20220104-161313-1-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Mechaico – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-p-20220104-162151-sres.webp",
+     "small": "/media/2023-05-p-20220104-162151-sres-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Mechaico – imagen 10"
+    }
+   ],
+   "order": 25
+  },
+  {
+   "slug": "proyecto-pyro-huicha",
+   "title": "PYRO Huicha",
+   "surface": "91,22 m²",
+   "description": "",
+   "location": "Sector rural Huicha, Ancud",
+   "hero": {
+    "src": "/media/2023-05-pyropaulina-p.webp",
+    "small": "/media/2023-05-pyropaulina-p-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "PYRO Huicha"
+   },
+   "card": {
+    "src": "/media/2023-05-pyropaulina-p-1.webp",
+    "small": "/media/2023-05-pyropaulina-p-1-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "PYRO Huicha"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-img-20230127-wa0004.webp",
+     "small": "/media/2023-05-img-20230127-wa0004-640.webp",
+     "width": 1200,
+     "height": 900,
+     "alt": "PYRO Huicha – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-img-20230127-wa0016.webp",
+     "small": "/media/2023-05-img-20230127-wa0016-640.webp",
+     "width": 1200,
+     "height": 900,
+     "alt": "PYRO Huicha – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-img-20230127-wa0019.webp",
+     "small": "/media/2023-05-img-20230127-wa0019-640.webp",
+     "width": 1200,
+     "height": 900,
+     "alt": "PYRO Huicha – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-img-20230129-wa0010.webp",
+     "small": "/media/2023-05-img-20230129-wa0010-640.webp",
+     "width": 1200,
+     "height": 900,
+     "alt": "PYRO Huicha – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-img-20230127-wa0027.webp",
+     "small": "/media/2023-05-img-20230127-wa0027-640.webp",
+     "width": 1200,
+     "height": 900,
+     "alt": "PYRO Huicha – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-img-20230127-wa0034.webp",
+     "small": "/media/2023-05-img-20230127-wa0034-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "PYRO Huicha – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-img-20230127-wa0022.webp",
+     "small": "/media/2023-05-img-20230127-wa0022-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "PYRO Huicha – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-img-20230127-wa0021.webp",
+     "small": "/media/2023-05-img-20230127-wa0021-640.webp",
+     "width": 1200,
+     "height": 900,
+     "alt": "PYRO Huicha – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-img-20230129-wa0004.webp",
+     "small": "/media/2023-05-img-20230129-wa0004-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "PYRO Huicha – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-img-20230129-wa0002.webp",
+     "small": "/media/2023-05-img-20230129-wa0002-640.webp",
+     "width": 750,
+     "height": 1000,
+     "alt": "PYRO Huicha – imagen 10"
+    },
+    {
+     "src": "/media/2023-05-img-20230129-wa0007.webp",
+     "small": "/media/2023-05-img-20230129-wa0007-640.webp",
+     "width": 1200,
+     "height": 900,
+     "alt": "PYRO Huicha – imagen 11"
+    }
+   ],
+   "order": 26
+  },
+  {
+   "slug": "proyecto-agrosol",
+   "title": "Agrosol",
+   "surface": "86,50 m²",
+   "description": "",
+   "location": "Sector rural Agrosol Ancud.",
+   "hero": {
+    "src": "/media/2023-05-agrosol-p1.webp",
+    "small": "/media/2023-05-agrosol-p1-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Agrosol"
+   },
+   "card": {
+    "src": "/media/2023-05-agrosol-p1.webp",
+    "small": "/media/2023-05-agrosol-p1-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Agrosol"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-agrosol-5.webp",
+     "small": "/media/2023-05-agrosol-5-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Agrosol – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-agrosol-6.webp",
+     "small": "/media/2023-05-agrosol-6-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Agrosol – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-agrosol-1.webp",
+     "small": "/media/2023-05-agrosol-1-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-agrosol-2.webp",
+     "small": "/media/2023-05-agrosol-2-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-agrosol-3.webp",
+     "small": "/media/2023-05-agrosol-3-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-agrosol-4.webp",
+     "small": "/media/2023-05-agrosol-4-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-agrosol-7.webp",
+     "small": "/media/2023-05-agrosol-7-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-agrosol-8.webp",
+     "small": "/media/2023-05-agrosol-8-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Agrosol – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-agrosol-9.webp",
+     "small": "/media/2023-05-agrosol-9-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-agrosol-10.webp",
+     "small": "/media/2023-05-agrosol-10-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 10"
+    },
+    {
+     "src": "/media/2023-05-agrosol-11.webp",
+     "small": "/media/2023-05-agrosol-11-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Agrosol – imagen 11"
+    },
+    {
+     "src": "/media/2023-05-agrosol-12.webp",
+     "small": "/media/2023-05-agrosol-12-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Agrosol – imagen 12"
+    }
+   ],
+   "order": 27
+  },
+  {
+   "slug": "proyecto-huicha",
+   "title": "Huicha",
+   "surface": "70,77 m²",
+   "description": "",
+   "location": "Sector Rural Huicha, Ancud",
+   "hero": {
+    "src": "/media/2023-05-casahuichap.webp",
+    "small": "/media/2023-05-casahuichap-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Huicha"
+   },
+   "card": {
+    "src": "/media/2023-05-casahuichap.webp",
+    "small": "/media/2023-05-casahuichap-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Huicha"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-casa-huicha7.webp",
+     "small": "/media/2023-05-casa-huicha7-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Huicha – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha11.webp",
+     "small": "/media/2023-05-casa-huicha11-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Huicha – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha12.webp",
+     "small": "/media/2023-05-casa-huicha12-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Huicha – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha.webp",
+     "small": "/media/2023-05-casa-huicha-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Huicha – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha2.webp",
+     "small": "/media/2023-05-casa-huicha2-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Huicha – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha3.webp",
+     "small": "/media/2023-05-casa-huicha3-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Huicha – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha4.webp",
+     "small": "/media/2023-05-casa-huicha4-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Huicha – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha5.webp",
+     "small": "/media/2023-05-casa-huicha5-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Huicha – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha6.webp",
+     "small": "/media/2023-05-casa-huicha6-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Huicha – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha8.webp",
+     "small": "/media/2023-05-casa-huicha8-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Huicha – imagen 10"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha9.webp",
+     "small": "/media/2023-05-casa-huicha9-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Huicha – imagen 11"
+    },
+    {
+     "src": "/media/2023-05-casa-huicha10.webp",
+     "small": "/media/2023-05-casa-huicha10-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Huicha – imagen 12"
+    }
+   ],
+   "order": 28
+  },
+  {
+   "slug": "proyecto-yva-caracoles",
+   "title": "Proyecto YVA Caracoles",
+   "surface": "128,62 m²",
+   "description": "",
+   "location": "Sector rural caracoles Ancud",
+   "hero": {
+    "src": "/media/2023-05-casayovani-p.webp",
+    "small": "/media/2023-05-casayovani-p-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Proyecto YVA Caracoles"
+   },
+   "card": {
+    "src": "/media/2023-05-casayovani-p.webp",
+    "small": "/media/2023-05-casayovani-p-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Proyecto YVA Caracoles"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-yovany.webp",
+     "small": "/media/2023-05-yovany-640.webp",
+     "width": 1164,
+     "height": 655,
+     "alt": "Proyecto YVA Caracoles – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-yovany7.webp",
+     "small": "/media/2023-05-yovany7-640.webp",
+     "width": 1164,
+     "height": 655,
+     "alt": "Proyecto YVA Caracoles – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-yovany8.webp",
+     "small": "/media/2023-05-yovany8-640.webp",
+     "width": 1164,
+     "height": 657,
+     "alt": "Proyecto YVA Caracoles – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-yovany16.webp",
+     "small": "/media/2023-05-yovany16-640.webp",
+     "width": 1164,
+     "height": 657,
+     "alt": "Proyecto YVA Caracoles – imagen 4"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol1.webp",
+     "small": "/media/2020-10-jessicacaracol1-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto YVA Caracoles – imagen 5"
+    },
+    {
+     "src": "/media/2023-05-yovany2.webp",
+     "small": "/media/2023-05-yovany2-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 6"
+    },
+    {
+     "src": "/media/2023-05-yovany3.webp",
+     "small": "/media/2023-05-yovany3-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 7"
+    },
+    {
+     "src": "/media/2023-05-yovany5.webp",
+     "small": "/media/2023-05-yovany5-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 8"
+    },
+    {
+     "src": "/media/2023-05-yovany6.webp",
+     "small": "/media/2023-05-yovany6-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 9"
+    },
+    {
+     "src": "/media/2023-05-yovany9.webp",
+     "small": "/media/2023-05-yovany9-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 10"
+    },
+    {
+     "src": "/media/2023-05-yovany10.webp",
+     "small": "/media/2023-05-yovany10-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 11"
+    },
+    {
+     "src": "/media/2023-05-yovany11.webp",
+     "small": "/media/2023-05-yovany11-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 12"
+    },
+    {
+     "src": "/media/2023-05-yovany14.webp",
+     "small": "/media/2023-05-yovany14-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 13"
+    },
+    {
+     "src": "/media/2023-05-yovany4.webp",
+     "small": "/media/2023-05-yovany4-640.webp",
+     "width": 656,
+     "height": 1164,
+     "alt": "Proyecto YVA Caracoles – imagen 14"
+    }
+   ],
+   "order": 29
+  },
+  {
+   "slug": "proyecto-caracoles",
+   "title": "Proyecto Caracoles",
+   "surface": "85 m²",
+   "description": "",
+   "location": "Sector rural Caracoles Ancud",
+   "hero": {
+    "src": "/media/2020-10-carocoles-dest.webp",
+    "small": "/media/2020-10-carocoles-dest-640.webp",
+    "width": 1100,
+    "height": 825,
+    "alt": "Proyecto Caracoles"
+   },
+   "card": {
+    "src": "/media/2020-10-jessica-caracoles-p-1.webp",
+    "small": "/media/2020-10-jessica-caracoles-p-1-640.webp",
+    "width": 878,
+    "height": 617,
+    "alt": "Proyecto Caracoles"
+   },
+   "gallery": [
+    {
+     "src": "/media/2020-10-whatsapp-image-2023-05-13-at-14-51-15.webp",
+     "small": "/media/2020-10-whatsapp-image-2023-05-13-at-14-51-15-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Proyecto Caracoles – imagen 1"
+    },
+    {
+     "src": "/media/2020-10-whatsapp-image-2023-05-13-at-14-51-19-1.webp",
+     "small": "/media/2020-10-whatsapp-image-2023-05-13-at-14-51-19-1-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Proyecto Caracoles – imagen 2"
+    },
+    {
+     "src": "/media/2020-10-whatsapp-image-2023-05-13-at-14-51-18.webp",
+     "small": "/media/2020-10-whatsapp-image-2023-05-13-at-14-51-18-640.webp",
+     "width": 1100,
+     "height": 825,
+     "alt": "Proyecto Caracoles – imagen 3"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol5.webp",
+     "small": "/media/2020-10-jessicacaracol5-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Proyecto Caracoles – imagen 4"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol7.webp",
+     "small": "/media/2020-10-jessicacaracol7-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Proyecto Caracoles – imagen 5"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol3.webp",
+     "small": "/media/2020-10-jessicacaracol3-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Proyecto Caracoles – imagen 6"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol4.webp",
+     "small": "/media/2020-10-jessicacaracol4-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Proyecto Caracoles – imagen 7"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol1.webp",
+     "small": "/media/2020-10-jessicacaracol1-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto Caracoles – imagen 8"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol2.webp",
+     "small": "/media/2020-10-jessicacaracol2-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto Caracoles – imagen 9"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol6.webp",
+     "small": "/media/2020-10-jessicacaracol6-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto Caracoles – imagen 10"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol8.webp",
+     "small": "/media/2020-10-jessicacaracol8-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Proyecto Caracoles – imagen 11"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol9.webp",
+     "small": "/media/2020-10-jessicacaracol9-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto Caracoles – imagen 12"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol10.webp",
+     "small": "/media/2020-10-jessicacaracol10-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto Caracoles – imagen 13"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol11.webp",
+     "small": "/media/2020-10-jessicacaracol11-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto Caracoles – imagen 14"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol12.webp",
+     "small": "/media/2020-10-jessicacaracol12-640.webp",
+     "width": 563,
+     "height": 1000,
+     "alt": "Proyecto Caracoles – imagen 15"
+    },
+    {
+     "src": "/media/2020-10-jessicacaracol13.webp",
+     "small": "/media/2020-10-jessicacaracol13-640.webp",
+     "width": 1200,
+     "height": 675,
+     "alt": "Proyecto Caracoles – imagen 16"
+    }
+   ],
+   "order": 30
+  }
+ ],
+ "services": [
+  {
+   "slug": "construccion-de-viviendas",
+   "title": "Construcción de viviendas",
+   "kind": "servicio",
+   "icon": "house",
+   "excerpt": "Somos una empresa familiar establecida en Ancud, con más de 10 años de experiencia en construcción de viviendas sociales del subsidio DS1 otorgados por el MINVU; de igual",
+   "description": "Somos una empresa familiar establecida en Ancud, con más de 10 años de experiencia en construcción de viviendas sociales del subsidio DS1 otorgados por el MINVU; de igual manera realizamos proyectos de vivienda privados, llave en mano.",
+   "price": null,
+   "hero": {
+    "src": "/media/2023-05-const-viviendas.webp",
+    "small": "/media/2023-05-const-viviendas-640.webp",
+    "width": 652,
+    "height": 405,
+    "alt": "Construcción de viviendas"
+   },
+   "gallery": [],
+   "order": 0
+  },
+  {
+   "slug": "diseno-y-arquitectura",
+   "title": "Diseño y arquitectura",
+   "kind": "servicio",
+   "icon": "compass",
+   "excerpt": "Contamos con un equipo de arquitectos con los que trabajamos cada proyecto de manera personalizada y nos dedicamos al 100% a cada una de ellos, con el fin de hacer que ca",
+   "description": "Contamos con un equipo de arquitectos con los que trabajamos cada proyecto de manera personalizada y nos dedicamos al 100% a cada una de ellos, con el fin de hacer que cada proyecto cumpla con las expectativas y necesidades y además se ajuste a la norma urbanística.",
+   "price": null,
+   "hero": {
+    "src": "/media/2023-05-vista-superior-mano-haciendo-dibujo-arquitecto.webp",
+    "small": "/media/2023-05-vista-superior-mano-haciendo-dibujo-arquitecto-640.webp",
+    "width": 862,
+    "height": 575,
+    "alt": "Diseño y arquitectura"
+   },
+   "gallery": [],
+   "order": 1
+  },
+  {
+   "slug": "inmobiliaria",
+   "title": "Inmobiliaria",
+   "kind": "servicio",
+   "icon": "land",
+   "excerpt": "Tenemos a la venta parcelas en el archipiélago de Chiloé, cada una de ellas tienen el encanto del Sur, con hermosos bosques nativos, praderas y vertientes naturales.",
+   "description": "Tenemos a la venta parcelas en el archipiélago de Chiloé, cada una de ellas tienen el encanto del Sur, con hermosos bosques nativos, praderas y vertientes naturales.",
+   "price": null,
+   "hero": {
+    "src": "/media/elementor-thumbs-slidertopogra-copia-q7kl30cvf5wzvq9a6c3z6kqnfhc3uw4xjlecoewqik.webp",
+    "small": "/media/elementor-thumbs-slidertopogra-copia-q7kl30cvf5wzvq9a6c3z6kqnfhc3uw4xjlecoewqik-640.webp",
+    "width": 590,
+    "height": 326,
+    "alt": "Inmobiliaria"
+   },
+   "gallery": [],
+   "order": 2
+  },
+  {
+   "slug": "regularizacion-de-viviendas",
+   "title": "Regularización de viviendas",
+   "kind": "servicio",
+   "icon": "file",
+   "excerpt": "Si aún no tienes regularizada tu ampliación o construcción de vivienda, nosotros te podemos ayudar, contamos con un equipo de profesionales encargados de elaborar y gesti",
+   "description": "Si aún no tienes regularizada tu ampliación o construcción de vivienda, nosotros te podemos ayudar, contamos con un equipo de profesionales encargados de elaborar y gestionar los expedientes con el Departamento de Obras Municipal (D.O.M), con el fin de obtener la recepción definitiva de tu propiedad.\nEs importante contar con el permiso de edificación y recepción final de tu vivienda ya que asi evitas multas y sanciones.\nLey del Mono: La ley 20.998 llamada » Ley del Mono», esta Ley permite realizar un trámite simplificado de regularización de una vivienda, con pagos de derechos municipales menores a otros trámites, obteniendo el permiso y recepción definitiva a la vez. Dicha Ley estará vigente hasta el 31 de diciembre de 2025.",
+   "price": null,
+   "hero": {
+    "src": "/media/2023-05-regularizacion-vivienda-copia.webp",
+    "small": "/media/2023-05-regularizacion-vivienda-copia-640.webp",
+    "width": 1046,
+    "height": 655,
+    "alt": "Regularización de viviendas"
+   },
+   "gallery": [],
+   "order": 3
+  },
+  {
+   "slug": "proyectos-sanitarios",
+   "title": "Proyectos sanitarios",
+   "kind": "servicio",
+   "icon": "water",
+   "excerpt": "El proyecto sanitario de agua potable y alcantarillado es la opción particular cuando se tiene una propiedad que esta fuera de la red se servicio público. En Constructora",
+   "description": "El proyecto sanitario de agua potable y alcantarillado es la opción particular cuando se tiene una propiedad que esta fuera de la red se servicio público. En Constructora Azteca nos encargamos de realizar los expedientes y gestionarlos ante la Seremi de Salud para la obtención del permiso sanitario.",
+   "price": null,
+   "hero": {
+    "src": "/media/2023-05-servicio-sanitarios.webp",
+    "small": "/media/2023-05-servicio-sanitarios-640.webp",
+    "width": 1046,
+    "height": 655,
+    "alt": "Proyectos sanitarios"
+   },
+   "gallery": [],
+   "order": 4
+  },
+  {
+   "slug": "proyectos-de-electricidad",
+   "title": "Proyectos de electricidad",
+   "kind": "servicio",
+   "icon": "bolt",
+   "excerpt": "Contamos con un área encargada de elaborar los planos, diagramas y proyectos de instalación eléctricos, con el fin de obtener el TE1 ante la Superintendencia de electrici",
+   "description": "Contamos con un área encargada de elaborar los planos, diagramas y proyectos de instalación eléctricos, con el fin de obtener el TE1 ante la Superintendencia de electricidad y combustibles (SEC).",
+   "price": null,
+   "hero": {
+    "src": "/media/2023-05-proyectos-electricos.webp",
+    "small": "/media/2023-05-proyectos-electricos-640.webp",
+    "width": 1046,
+    "height": 655,
+    "alt": "Proyectos de electricidad"
+   },
+   "gallery": [],
+   "order": 5
+  },
+  {
+   "slug": "topografia",
+   "title": "Topografía",
+   "kind": "servicio",
+   "icon": "survey",
+   "excerpt": "Contamos con área de topografía, en el cual se hacen subdivisiones de terrenos rurales.",
+   "description": "Contamos con área de topografía, en el cual se hacen subdivisiones de terrenos rurales.",
+   "price": null,
+   "hero": {
+    "src": "/media/2023-05-topografia-1.webp",
+    "small": "/media/2023-05-topografia-1-640.webp",
+    "width": 1042,
+    "height": 871,
+    "alt": "Topografía"
+   },
+   "gallery": [],
+   "order": 6
+  },
+  {
+   "slug": "parcelas-mechaico",
+   "title": "Parcelas Mechaico",
+   "kind": "parcela",
+   "icon": "land",
+   "excerpt": "Parcelas de médica hectáreas con hermoso bosque nativo y pampa.",
+   "description": "Parcelas de médica hectáreas con hermoso bosque nativo y pampa.\nUbicadas a 10 minutos de Ancud y a 700m de la ruta 5.\nFactibilidad de luz y agua por medio de pozo, el sector cuenta con proyecto APR.\nPrecio $30 millones.\nMedia hectárea",
+   "price": 30000000,
+   "hero": {
+    "src": "/media/2020-10-parcela4.webp",
+    "small": "/media/2020-10-parcela4-640.webp",
+    "width": 1599,
+    "height": 1200,
+    "alt": "Parcelas Mechaico"
+   },
+   "gallery": [
+    {
+     "src": "/media/2020-10-parcela5.webp",
+     "small": "/media/2020-10-parcela5-640.webp",
+     "width": 1152,
+     "height": 864,
+     "alt": "Parcelas Mechaico – imagen 1"
+    },
+    {
+     "src": "/media/2020-10-parcela4.webp",
+     "small": "/media/2020-10-parcela4-640.webp",
+     "width": 1599,
+     "height": 1200,
+     "alt": "Parcelas Mechaico – imagen 2"
+    },
+    {
+     "src": "/media/2020-10-parcela2.webp",
+     "small": "/media/2020-10-parcela2-640.webp",
+     "width": 1152,
+     "height": 864,
+     "alt": "Parcelas Mechaico – imagen 3"
+    },
+    {
+     "src": "/media/2020-10-parcela1.webp",
+     "small": "/media/2020-10-parcela1-640.webp",
+     "width": 1152,
+     "height": 864,
+     "alt": "Parcelas Mechaico – imagen 4"
+    },
+    {
+     "src": "/media/2020-10-parcela-3.webp",
+     "small": "/media/2020-10-parcela-3-640.webp",
+     "width": 1599,
+     "height": 1200,
+     "alt": "Parcelas Mechaico – imagen 5"
+    },
+    {
+     "src": "/media/2020-10-mechaico6.webp",
+     "small": "/media/2020-10-mechaico6-640.webp",
+     "width": 1599,
+     "height": 1200,
+     "alt": "Parcelas Mechaico – imagen 6"
+    }
+   ],
+   "order": 7
+  },
+  {
+   "slug": "parcela-piruquina",
+   "title": "Parcela Piruquina",
+   "kind": "parcela",
+   "icon": "land",
+   "excerpt": "A 10 minutos de la ciudad podrás Disfrutar de la tranquilidad que da la naturaleza, con excelente conectividad.",
+   "description": "A 10 minutos de la ciudad podrás Disfrutar de la tranquilidad que da la naturaleza, con excelente conectividad.\nEn nuestro proyecto de 10 parcelas de pampa y bosque nativo renoval, encuentras parcelas de media hectárea cada una, con conexión al agua potable rural (A.P.R) y factibilidad de electricidad; con un entorno de tranquilidad y seguridad.\nSe accede desde la ruta w460 camino a la laguna Pastahue.",
+   "price": 26000000,
+   "hero": {
+    "src": "/media/2023-05-piruquina1.webp",
+    "small": "/media/2023-05-piruquina1-640.webp",
+    "width": 1600,
+    "height": 900,
+    "alt": "Parcela Piruquina"
+   },
+   "gallery": [
+    {
+     "src": "/media/2023-05-piruquina1-1.webp",
+     "small": "/media/2023-05-piruquina1-1-640.webp",
+     "width": 1600,
+     "height": 900,
+     "alt": "Parcela Piruquina – imagen 1"
+    },
+    {
+     "src": "/media/2023-05-piruquina2.webp",
+     "small": "/media/2023-05-piruquina2-640.webp",
+     "width": 1600,
+     "height": 900,
+     "alt": "Parcela Piruquina – imagen 2"
+    },
+    {
+     "src": "/media/2023-05-piruquina3.webp",
+     "small": "/media/2023-05-piruquina3-640.webp",
+     "width": 1600,
+     "height": 900,
+     "alt": "Parcela Piruquina – imagen 3"
+    },
+    {
+     "src": "/media/2023-05-piruquina4.webp",
+     "small": "/media/2023-05-piruquina4-640.webp",
+     "width": 1600,
+     "height": 900,
+     "alt": "Parcela Piruquina – imagen 4"
+    },
+    {
+     "src": "/media/2023-05-piruquina5.webp",
+     "small": "/media/2023-05-piruquina5-640.webp",
+     "width": 1080,
+     "height": 1159,
+     "alt": "Parcela Piruquina – imagen 5"
+    }
+   ],
+   "order": 8
+  }
+ ],
+ "about": {
+  "hero": {
+   "src": "/media/elementor-thumbs-construc-casa-q7kl30cv6e68sixd62anku96s88j4h5i0b8vr45d7k.webp",
+   "small": "/media/elementor-thumbs-construc-casa-q7kl30cv6e68sixd62anku96s88j4h5i0b8vr45d7k-640.webp",
+   "width": 570,
+   "height": 400,
+   "alt": ""
+  },
+  "egr": null
+ }
+}
