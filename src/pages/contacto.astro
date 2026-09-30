@@ -8,7 +8,7 @@ import { SITE } from '../lib/site';
 const c = await getContent();
 ---
 <Base title="Contáctanos" description="Escríbenos o llámanos: Constructora Azteca en Ancud, Chiloé. Cotiza tu vivienda, regularización, proyecto sanitario o parcela.">
-  <PageHero title="Contáctanos" lead="Cuéntanos sobre tu proyecto. Te responderemos a la brevedad." image={c.projects[2]?.hero} crumbs={[{ label: 'Contáctanos' }]} />
+  <PageHero title="Contáctanos" lead="Cuéntanos sobre tu proyecto. Te responderemos a la brevedad." image={{ src: '/hero/hero-contacto.webp', srcset: '/hero/hero-contacto-960.webp 960w, /hero/hero-contacto.webp 1600w', width: 1600, height: 727, position: 'center 75%' }} crumbs={[{ label: 'Contáctanos' }]} />
   <section class="section">
     <div class="container"><div class="section-head section-head--center"><span class="eyebrow">Contacto</span><h2>Hablemos de tu Proyecto</h2></div></div>
     <div class="container ct">
