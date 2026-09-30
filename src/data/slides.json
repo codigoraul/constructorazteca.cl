@@ -63,9 +63,9 @@
   "image": {
    "src": "/slider/slide-5.webp",
    "small": "/slider/slide-5-800.webp",
-   "width": 1600,
-   "height": 1200,
-   "alt": "Interior con ventanales al paisaje",
+   "width": 1376,
+   "height": 768,
+   "alt": "Interior de vivienda con revestimiento de madera y ventanales al jardín",
    "position": "50% 55%"
   }
  }

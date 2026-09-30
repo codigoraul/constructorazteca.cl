@@ -64,7 +64,7 @@ const stats = [
       <div class="section-head section-head--center">
         <span class="eyebrow">Proyectos</span><h2>Algunos Proyectos</h2>
       </div>
-      <div class="masonry">{featured.map((p) => <ProjectCard p={p} />)}</div>
+      <div class="feat">{featured.map((p) => <ProjectCard p={p} />)}</div>
       <p class="more"><a class="link-arrow" href="/proyectos">Ver todos los proyectos <Icon name="arrow" size={16} /></a></p>
     </div>
   </section>
@@ -72,6 +72,11 @@ const stats = [
   <CtaBand />
 </Base>
 <style>
+  .feat{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.4vw,22px)}
+  .feat :global(.pcard){margin:0}
+  .feat :global(.pcard img){aspect-ratio:4/3;object-fit:cover}
+  @media (max-width:1000px){.feat{grid-template-columns:repeat(2,1fr)}}
+  @media (max-width:600px){.feat{grid-template-columns:1fr}}
   .about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,90px);align-items:center}
   .about__media{position:relative}
   .about__media img{width:100%;aspect-ratio:5/4;object-fit:cover}
