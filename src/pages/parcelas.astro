@@ -8,7 +8,7 @@ const c = await getContent();
 const list = c.services.filter((s) => s.kind === 'parcela');
 ---
 <Base title="Parcelas en venta" description="Venta de parcelas en el archipiélago de Chiloé, con bosque nativo, praderas y vertientes naturales. Parcelas Mechaico y Piruquina, Ancud.">
-  <PageHero title="Inmobiliaria" lead="Tenemos a la venta parcelas en el archipiélago de Chiloé, cada una con el encanto del sur: hermosos bosques nativos, praderas y vertientes naturales." image={list[0]?.hero} crumbs={[{ label: 'Parcelas' }]} />
+  <PageHero title="Inmobiliaria" lead="Tenemos a la venta parcelas en el archipiélago de Chiloé, cada una con el encanto del sur: hermosos bosques nativos, praderas y vertientes naturales." image={{ src: '/hero/hero-parcelas.webp', srcset: '/hero/hero-parcelas-960.webp 960w, /hero/hero-parcelas.webp 1920w', width: 1920, height: 700, position: 'center 22%' }} crumbs={[{ label: 'Parcelas' }]} />
   <section class="section section--gray">
     <div class="container">
       

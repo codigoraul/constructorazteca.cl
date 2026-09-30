@@ -8,7 +8,7 @@ const c = await getContent();
 const list = c.services.filter((s) => s.kind === 'servicio');
 ---
 <Base title="Servicios" description="Construcción de viviendas, diseño y arquitectura, regularización, proyectos sanitarios y eléctricos, topografía e inmobiliaria en Ancud, Chiloé.">
-  <PageHero title="Nuestros servicios" lead="Acompañamos tu proyecto desde el diseño y los permisos hasta la entrega llave en mano." image={c.projects[1]?.hero} crumbs={[{ label: 'Servicios' }]} />
+  <PageHero title="Nuestros servicios" lead="Acompañamos tu proyecto desde el diseño y los permisos hasta la entrega llave en mano." image={{ src: '/hero/hero-servicios.webp', srcset: '/hero/hero-servicios-960.webp 960w, /hero/hero-servicios.webp 1920w', width: 1920, height: 760, position: 'center 33%' }} crumbs={[{ label: 'Servicios' }]} />
   <section class="section section--gray"><div class="container"><div class="section-head section-head--center"><span class="eyebrow">Servicios</span><h2>Nuestros Servicios</h2></div><div class="grid grid--3">{list.map((s) => <ServiceCard s={s} />)}</div></div></section>
   <CtaBand />
 </Base>

@@ -19,12 +19,12 @@
   "cta": "Ver proyectos",
   "link": "/proyectos",
   "image": {
-   "src": "/slider/slide-2.webp",
-   "small": "/slider/slide-2-800.webp",
-   "width": 1600,
-   "height": 1200,
-   "alt": "Casa de dos pisos en construcción",
-   "position": "50% 55%"
+   "src": "/slider/slide-2-interior.webp",
+   "small": "/slider/slide-2-interior-800.webp",
+   "width": 1584,
+   "height": 672,
+   "alt": "Interior de vivienda terminada con ventanales al jardín",
+   "position": "65% 50%"
   }
  },
  {
@@ -33,12 +33,12 @@
   "cta": "Ver detalles",
   "link": "/servicios/diseno-y-arquitectura",
   "image": {
-   "src": "/slider/slide-3.webp",
-   "small": "/slider/slide-3-800.webp",
-   "width": 1497,
-   "height": 1123,
-   "alt": "Interior de vivienda terminada",
-   "position": "50% 22%"
+   "src": "/slider/slide-3-arquitectura.webp",
+   "small": "/slider/slide-3-arquitectura-800.webp",
+   "width": 1536,
+   "height": 688,
+   "alt": "Vivienda de diseño moderno con jardín y revestimiento oscuro",
+   "position": "60% 50%"
   }
  },
  {
@@ -61,12 +61,12 @@
   "cta": "Ver parcelas",
   "link": "/parcelas",
   "image": {
-   "src": "/slider/slide-5.webp",
-   "small": "/slider/slide-5-800.webp",
-   "width": 1376,
-   "height": 768,
-   "alt": "Interior de vivienda con revestimiento de madera y ventanales al jardín",
-   "position": "50% 55%"
+   "src": "/slider/slide-5-parcelas.webp",
+   "small": "/slider/slide-5-parcelas-800.webp",
+   "width": 1920,
+   "height": 864,
+   "alt": "Parcelas en el sur de Chile: praderas y bosque nativo",
+   "position": "50% 50%"
   }
  }
 ]

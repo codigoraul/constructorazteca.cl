@@ -1,4 +1,4 @@
-export interface Img { src: string; small?: string; width: number; height: number; alt?: string; position?: string }
+export interface Img { src: string; small?: string; width: number; height: number; alt?: string; position?: string; srcset?: string }
 export interface Slide { title: string; subtitle: string; cta?: string; link?: string; image: Img }
 export interface Project {
   slug: string; title: string; surface?: string | null; description: string;

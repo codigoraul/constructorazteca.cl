@@ -12,11 +12,12 @@ export async function getStaticPaths() {
 }
 const { s, others, bg } = Astro.props;
 const isParcela = s.kind === 'parcela';
+const heroServicios = { src: '/hero/hero-servicios.webp', srcset: '/hero/hero-servicios-960.webp 960w, /hero/hero-servicios.webp 1920w', width: 1920, height: 760, position: 'center 33%' };
 const paras = s.description.split('\n').filter(Boolean);
 const section = isParcela ? { label: 'Parcelas', href: '/parcelas' } : { label: 'Servicios', href: '/servicios' };
 ---
 <Base title={s.title} description={s.excerpt} image={s.hero?.src}>
-  <PageHero title={s.title} image={bg ?? s.hero} crumbs={[section, { label: s.title }]} />
+  <PageHero title={s.title} image={isParcela ? (bg ?? s.hero) : heroServicios} crumbs={[section, { label: s.title }]} />
   <section class="section">
     <div class="container det">
       <div class="reveal">
