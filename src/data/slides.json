@@ -2,8 +2,8 @@
  {
   "title": "Azteca Construcción",
   "subtitle": "Empresa dedicada al desarrollo de proyectos de vivienda social y privada, en sector urbano y rural.",
-  "cta": "Ver servicios",
-  "link": "/servicios",
+  "cta": "Ver proyectos",
+  "link": "/proyectos",
   "image": {
    "src": "/slider/slide-1.webp",
    "small": "/slider/slide-1-800.webp",
@@ -16,8 +16,8 @@
  {
   "title": "Proyectos de vivienda social y privada",
   "subtitle": "En sector urbano y rural; construyendo y respaldando el sueño de muchas familias.",
-  "cta": "Ver proyectos",
-  "link": "/proyectos",
+  "cta": "Ver servicios",
+  "link": "/servicios",
   "image": {
    "src": "/slider/slide-2-interior.webp",
    "small": "/slider/slide-2-interior-800.webp",
