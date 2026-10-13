@@ -1,0 +1,123 @@
+---
+import { SITE } from '../lib/site';
+import Icon from './Icon.astro';
+const wa = `https://wa.me/${SITE.ep.phone.replace(/\D/g, '')}?text=${encodeURIComponent('Hola, quisiera consultar por Entidad Patrocinante (EP) DS-01 / DS-10.')}`;
+---
+<div class="pop" id="pop" role="dialog" aria-modal="true" aria-labelledby="pop-title" hidden>
+  <div class="pop__backdrop" data-pop-close></div>
+  <div class="pop__card" tabindex="-1">
+    <button class="pop__x" type="button" aria-label="Cerrar" data-pop-close>
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
+    </button>
+
+    <aside class="pop__brand">
+      <span class="pop__corner" aria-hidden="true"></span>
+      <div class="pop__logo"><img src="/egr-chile.webp" alt="EGR Chile Ltda. Consultoría Habitacional" width="240" height="192" /></div>
+      <p class="pop__by">Consultoría habitacional</p>
+    </aside>
+
+    <div class="pop__body">
+      <span class="pop__tag">Subsidio {SITE.ep.subtitle}</span>
+      <h2 id="pop-title">Entidad Patrocinante</h2>
+      <p class="pop__lead">{SITE.ep.text}</p>
+      <div class="pop__chips"><span>DS-01</span><span>DS-10</span><span>Minvu</span></div>
+
+      <ul class="pop__contact">
+        <li><span class="pop__ico"><Icon name="mail" size={18} /></span><div><small>Correo</small><a href={`mailto:${SITE.ep.email}`}>{SITE.ep.email}</a></div></li>
+        <li><span class="pop__ico"><Icon name="whatsapp" size={18} /></span><div><small>WhatsApp</small><a href={wa} target="_blank" rel="noopener">{SITE.ep.phone}</a></div></li>
+      </ul>
+
+      <div class="pop__cta">
+        <a class="btn" href={wa} target="_blank" rel="noopener"><Icon name="whatsapp" size={18} /> Escribir por WhatsApp</a>
+        <a class="pop__ghost" href={`mailto:${SITE.ep.email}`}>Enviar correo</a>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+  .pop{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:20px}
+  .pop[hidden]{display:none}
+  .pop__backdrop{position:absolute;inset:0;cursor:pointer;background:radial-gradient(ellipse 60% 50% at 15% 0%,rgba(245,166,35,.20),transparent 70%),radial-gradient(ellipse 50% 45% at 100% 100%,rgba(245,166,35,.12),transparent 70%),linear-gradient(180deg,rgba(28,28,28,.55),rgba(28,28,28,.80));backdrop-filter:blur(10px) saturate(.85);-webkit-backdrop-filter:blur(10px) saturate(.85);animation:pop-fade .6s var(--ease) both}
+  .pop__card{position:relative;width:100%;max-width:900px;max-height:calc(100svh - 40px);overflow:auto;display:grid;grid-template-columns:.8fr 1.2fr;background:#fff;box-shadow:0 50px 100px -30px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.06);outline:0;animation:pop-in .7s var(--ease) both}
+
+  .pop__brand{position:relative;background:var(--charcoal);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:clamp(30px,4vw,52px) clamp(22px,3vw,36px);overflow:hidden;
+    background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:28px 28px}
+  .pop__brand::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 38%,rgba(245,166,35,.16),transparent 62%)}
+  .pop__corner{position:absolute;left:0;top:0;width:64px;height:64px;border-top:5px solid var(--orange);border-left:5px solid var(--orange)}
+  .pop__logo{position:relative;background:#fff;padding:20px 22px;width:100%;max-width:250px;box-shadow:0 24px 50px -18px rgba(0,0,0,.6)}
+  .pop__logo img{width:100%;height:auto}
+  .pop__by{position:relative;margin:0;font-family:var(--font-head);font-size:.64rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:#bdbdbd;text-align:center;line-height:1.7}
+
+  .pop__body{padding:clamp(30px,4.2vw,56px) clamp(24px,4vw,52px)}
+  .pop__tag{display:inline-flex;align-items:center;gap:12px;font-family:var(--font-head);font-size:.7rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--orange-dark);margin-bottom:14px}
+  .pop__tag::before{content:"";width:28px;height:2px;background:var(--orange)}
+  .pop__body h2{font-size:clamp(1.7rem,3.2vw,2.35rem);margin-bottom:.45em}
+  .pop__lead{font-size:.98rem;margin-bottom:1.1em}
+  .pop__chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.6em}
+  .pop__chips span{font-family:var(--font-head);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--charcoal);background:var(--gray-100);border:1px solid #e6e6e6;padding:6px 12px}
+  .pop__chips span:first-child,.pop__chips span:nth-child(2){background:#fff7e6;border-color:#f6d9a2;color:#8a5a08}
+
+  .pop__contact{list-style:none;margin:0 0 1.8em;padding:0;display:grid;gap:14px}
+  .pop__contact li{display:flex;align-items:center;gap:16px}
+  .pop__ico{flex:none;width:44px;height:44px;border-radius:50%;background:var(--gray-100);color:var(--orange-dark);display:grid;place-items:center}
+  .pop__contact small{display:block;font-family:var(--font-head);font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gray-400);font-weight:700;line-height:1.4}
+  .pop__contact a{font-family:var(--font-head);font-weight:600;font-size:1rem;color:var(--charcoal);word-break:break-all;transition:color .25s}
+  .pop__contact a:hover{color:var(--orange-dark)}
+
+  .pop__cta{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px}
+  .pop__ghost{font-family:var(--font-head);font-weight:600;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--charcoal);padding-block:8px;border-bottom:2px solid var(--orange);transition:color .25s,border-color .25s}
+  .pop__ghost:hover{color:var(--orange-dark)}
+
+  .pop__x{position:absolute;top:14px;right:14px;z-index:3;width:40px;height:40px;border-radius:50%;border:1px solid rgba(45,45,45,.15);background:rgba(255,255,255,.92);color:var(--charcoal);display:grid;place-items:center;cursor:pointer;transition:background .3s,color .3s,transform .4s var(--ease),border-color .3s}
+  .pop__x:hover{background:var(--orange);border-color:var(--orange);transform:rotate(90deg)}
+
+  @keyframes pop-fade{from{opacity:0}}
+  @keyframes pop-in{from{opacity:0;transform:translateY(26px) scale(.97)}}
+  @media (max-width:760px){
+    .pop__card{grid-template-columns:1fr;max-width:440px}
+    .pop__brand{padding:30px 20px 24px;gap:14px}
+    .pop__logo{max-width:170px;padding:12px 14px}
+    .pop__corner{width:44px;height:44px}
+    .pop__by{display:none}
+    .pop__x{background:#fff}
+    .pop__cta .btn{width:100%;justify-content:center}
+    .pop__cta{flex-direction:column;align-items:stretch;text-align:center}.pop__ghost{align-self:center}
+  }
+  @media (prefers-reduced-motion:reduce){.pop__backdrop,.pop__card{animation:none}.pop__x:hover{transform:none}}
+</style>
+<script>
+  const pop = document.getElementById('pop');
+  if (pop) {
+    const KEY = 'azteca-ep-popup';
+    let seen = false;
+    try { seen = sessionStorage.getItem(KEY) === '1'; } catch {}
+    const card = pop.querySelector<HTMLElement>('.pop__card')!;
+    let last: Element | null = null;
+    const remember = () => { try { sessionStorage.setItem(KEY, '1'); } catch {} };
+    const close = () => {
+      pop.hidden = true;
+      document.body.style.overflow = '';
+      remember();
+      (last as HTMLElement | null)?.focus?.();
+    };
+    const open = () => {
+      last = document.activeElement;
+      pop.hidden = false;
+      document.body.style.overflow = 'hidden';
+      card.focus();
+    };
+    pop.querySelectorAll('[data-pop-close]').forEach((el) => el.addEventListener('click', close));
+    pop.querySelectorAll('.pop__cta a, .pop__contact a').forEach((a) => a.addEventListener('click', remember));
+    document.addEventListener('keydown', (e) => {
+      if (pop.hidden) return;
+      if (e.key === 'Escape') close();
+      if (e.key === 'Tab') {
+        const f = [...pop.querySelectorAll<HTMLElement>('a[href],button')];
+        const first = f[0], lastEl = f[f.length - 1];
+        if (e.shiftKey && (document.activeElement === first || document.activeElement === card)) { e.preventDefault(); lastEl.focus(); }
+        else if (!e.shiftKey && document.activeElement === lastEl) { e.preventDefault(); first.focus(); }
+      }
+    });
+    if (!seen) setTimeout(open, 900);
+  }
+</script>

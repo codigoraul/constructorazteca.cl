@@ -5,6 +5,7 @@ import ServiceCard from '../components/ServiceCard.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import CtaBand from '../components/CtaBand.astro';
 import Icon from '../components/Icon.astro';
+import Popup from '../components/Popup.astro';
 import { getContent } from '../lib/wp';
 import { SITE } from '../lib/site';
 const c = await getContent();
@@ -70,6 +71,7 @@ const stats = [
   </section>
 
   <CtaBand />
+  <Popup />
 </Base>
 <style>
   .feat{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(14px,1.4vw,22px)}
