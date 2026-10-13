@@ -54,7 +54,7 @@ const stats = [
       <div class="ep__contact">
         <img class="ep__logo" src="/egr-chile.webp" alt="EGR Chile Ltda. Consultoría Habitacional" width="240" height="192" loading="lazy" />
         <a href={`mailto:${SITE.ep.email}`}><Icon name="mail" size={22} /> {SITE.ep.email}</a>
-        <a href={`tel:${SITE.ep.phone.replace(/\s/g, '')}`}><Icon name="phone" size={22} /> {SITE.ep.phone}</a>
+        <a href={`https://wa.me/${SITE.ep.phone.replace(/\D/g, '')}?text=${encodeURIComponent('Hola, quisiera consultar por Entidad Patrocinante (EP) DS-01 / DS-10.')}`} target="_blank" rel="noopener"><Icon name="whatsapp" size={22} /> {SITE.ep.phone}</a>
       </div>
     </div>
   </section>

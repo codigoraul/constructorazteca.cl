@@ -8,7 +8,6 @@ const nav = [
   { href: '/proyectos', label: 'Proyectos' },
   { href: '/servicios', label: 'Servicios' },
   { href: '/parcelas', label: 'Parcelas' },
-  { href: '/contacto', label: 'Contáctanos' },
 ];
 const active = (h: string) => (h === '/' ? path === '/' : path === h || path.startsWith(h + '/'));
 const { solid = false } = Astro.props;
@@ -32,7 +31,7 @@ const { solid = false } = Astro.props;
     </a>
     <nav class="nav" id="nav" aria-label="Principal">
       {nav.map((n) => <a href={n.href} class:list={[{ on: active(n.href) }]} aria-current={active(n.href) ? 'page' : undefined}>{n.label}</a>)}
-      <a class="btn nav__cta" href="/contacto">Cotizar</a>
+      <a class="btn nav__cta" href="/contacto">Contáctanos</a>
     </nav>
     <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
   </div>

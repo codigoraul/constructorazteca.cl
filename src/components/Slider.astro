@@ -8,7 +8,7 @@ const pad = (n: number) => String(n).padStart(2, '0');
 <section class="hero" aria-roledescription="carrusel" aria-label="Destacados" data-slider>
   <div class="hero__slides">
     {slides.map((s, i) => (
-      <article class:list={['slide', { active: i === 0 }]} aria-hidden={i === 0 ? 'false' : 'true'}>
+      <article class:list={['slide', { active: i === 0, 'slide--right': s.image.layout === 'right' }]} aria-hidden={i === 0 ? 'false' : 'true'}>
         <img class="slide__img" src={s.image.src} srcset={s.image.small ? `${s.image.small} 800w, ${s.image.src} 1600w` : undefined} sizes="100vw" style={s.image.position ? `object-position:${s.image.position}` : undefined} alt={s.image.alt ?? ''} width={s.image.width} height={s.image.height} loading={i === 0 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : 'auto'} decoding="async" />
         <div class="container slide__in">
           <p class="eyebrow">{pad(i + 1)} — Constructora e Inmobiliaria</p>
@@ -42,6 +42,9 @@ const pad = (n: number) => String(n).padStart(2, '0');
   .slide.active .slide__img{animation:kb 9s ease-out forwards}
   @keyframes kb{to{transform:scale(1.10)}}
   .slide::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(45,45,45,.88) 0%,rgba(45,45,45,.55) 48%,rgba(45,45,45,.15) 100%),linear-gradient(0deg,rgba(45,45,45,.6),transparent 40%),linear-gradient(180deg,rgba(45,45,45,.78),transparent 230px)}
+  .slide--right .slide__img{left:auto;right:0;width:64%}
+  .slide--right::before{background:linear-gradient(90deg,var(--charcoal) 0%,var(--charcoal) 36%,rgba(45,45,45,.55) 48%,rgba(45,45,45,0) 68%),linear-gradient(0deg,rgba(45,45,45,.45),transparent 35%),linear-gradient(180deg,rgba(45,45,45,.6),transparent 200px)}
+  @media (max-width:900px){.slide--right .slide__img{width:100%}.slide--right::before{background:linear-gradient(90deg,rgba(45,45,45,.88) 0%,rgba(45,45,45,.55) 48%,rgba(45,45,45,.15) 100%),linear-gradient(0deg,rgba(45,45,45,.6),transparent 40%),linear-gradient(180deg,rgba(45,45,45,.78),transparent 230px)}}
   .slide__in{padding-top:120px}
   .slide .eyebrow{color:var(--orange-light)}
   .slide__title{color:#fff;max-width:14ch;text-transform:uppercase;letter-spacing:0;font-weight:600;font-size:clamp(1.87rem,4.2vw,3.5rem)}

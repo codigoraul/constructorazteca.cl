@@ -33,12 +33,13 @@
   "cta": "Ver detalles",
   "link": "/servicios/diseno-y-arquitectura",
   "image": {
-   "src": "/slider/slide-3-arquitectura.webp",
-   "small": "/slider/slide-3-arquitectura-800.webp",
-   "width": 1536,
-   "height": 688,
-   "alt": "Vivienda de diseño moderno con jardín y revestimiento oscuro",
-   "position": "60% 50%"
+   "src": "/slider/slide-3-casa.webp",
+   "small": "/slider/slide-3-casa-800.webp",
+   "width": 1600,
+   "height": 1200,
+   "alt": "Vivienda de diseño moderno con revestimiento oscuro y jardín",
+   "position": "50% 50%",
+   "layout": "right"
   }
  },
  {
@@ -47,11 +48,11 @@
   "cta": "Ver detalles",
   "link": "/servicios/construccion-de-viviendas",
   "image": {
-   "src": "/slider/slide-4.webp",
-   "small": "/slider/slide-4-800.webp",
+   "src": "/slider/slide-4-casa.webp",
+   "small": "/slider/slide-4-casa-800.webp",
    "width": 1600,
    "height": 1200,
-   "alt": "Vivienda con revestimiento de madera",
+   "alt": "Vivienda de dos pisos con revestimiento de madera y jardín",
    "position": "50% 45%"
   }
  },
