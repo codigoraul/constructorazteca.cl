@@ -1,4 +1,4 @@
-name: Deploy /prueba
+name: Deploy constructorazteca.cl
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: deploy-prueba
+  group: deploy-produccion
   cancel-in-progress: true
 
 jobs:
@@ -25,9 +25,8 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          BASE_PATH: /prueba
           WP_URL: https://constructorazteca.cl/admin
-          PUBLIC_SITE_URL: https://constructorazteca.cl/prueba
+          PUBLIC_SITE_URL: https://constructorazteca.cl
 
       - name: Subir por FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -36,4 +35,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /prueba/
+          server-dir: /
