@@ -3,6 +3,8 @@ name: Deploy constructorazteca.cl
 on:
   push:
     branches: [main]
+  repository_dispatch:
+    types: [wp-publish]
   workflow_dispatch:
 
 concurrency:
